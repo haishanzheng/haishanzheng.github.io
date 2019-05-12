@@ -2,6 +2,8 @@
 
 ## jekyll local setup
 
+    vagrant up
+
     apt install ruby
 
     apt install ruby-dev
@@ -15,3 +17,4 @@
 
 http://127.0.0.1:6940
 
+## TODO

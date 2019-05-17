@@ -4,17 +4,26 @@
 
     vagrant up
 
-    apt install ruby
+    sudo apt install ruby
 
-    apt install ruby-dev
-    apt install build-essential
-    apt install zlib1g-dev
+    sudo apt install ruby-dev
+    sudo apt install build-essential
+    sudo apt install zlib1g-dev
 
-    gem install bundler
+    sudo gem install bundler
     bundle install
 
-    bundle exec jekyll serve
+## Preview
+
+    cd /vagrant/
+    ./startdebug.sh
+    bundle exec jekyll serve --incremental --watch --force_polling
 
 http://127.0.0.1:6940
+
+## Update
+
+sudo gem update
+bundle update
 
 ## TODO

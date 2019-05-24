@@ -1,5 +1,5 @@
 ---
-title:  "一键部署Zabbix+Grafana+Icinga+SmokePing监控系统"
+title:  "一键部署Zabbix、Grafana、Icinga、SmokePing监控系统"
 date:   2019-04-09 15:28:09 +0800
 ---
 

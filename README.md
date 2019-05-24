@@ -23,7 +23,7 @@ http://127.0.0.1:6940
 
 ## Update
 
-sudo gem update
-bundle update
+    sudo gem update
+    bundle update
 
 ## TODO

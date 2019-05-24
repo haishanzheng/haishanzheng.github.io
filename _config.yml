@@ -66,6 +66,7 @@ sitemap:
         - "/feed.xml"
         - "/feed/index.xml"
         - "/404.html"
+        - "*.log"
     include_posts:
         - "/index.html"
     change_frequency_name: "change_frequency"

@@ -4,7 +4,7 @@ title: 论文发表
 permalink: /paper/
 ---
 
-### [10]Zheng H, Jiang X. Design and Implementation of College Consumption Analysis System Based on NoSQL Database[C]//2018 13th International Conference on Computer Science & Education (ICCSE). IEEE, 2018: 1-5.
+### [10]Zheng H, Jiang X. [Design and Implementation of College Consumption Analysis System Based on NoSQL Database](/images/paper/design-and-implementation-of-college-consumption-analysis-system-based-on-nosql-database.pdf)[C]//2018 13th International Conference on Computer Science & Education (ICCSE). IEEE, 2018: 1-5.
 
 > Abstract: This paper is aimed at mitigating the difficulty of analyzing students' personal consumption patterns by successfully coping with the large volume of student consumption data that exists. Most universities store their consumption data in relational databases; the amount of data is huge, but the databases performance only enables it to show the students consumption records from recent days. The delay when performing big data analysis in relational databases is very large. This article proposes a method by exporting data from relational database to NoSQL database, selecting the right database to balance the delay of importing and querying time and using load balancing, caching, and other tuning strategies to reduce the response time of web application, achieving a good user experience under a high concurrency environment. Using this method, students can view their consumption data analysis in seconds.
 

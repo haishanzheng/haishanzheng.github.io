@@ -19,7 +19,7 @@ host: 0.0.0.0
 title: 郑海山的blog
 email: haishanzheng AT sina.com
 description: >
-    郑海山的blog
+    微信公众号名“郑海山dump”，号为“zhsdump”。欢迎扫码关注互动。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  haishanzheng
@@ -44,6 +44,8 @@ exclude:
   - "*.log"
   - README.md
   - Vagrantfile
+  - "*.sh"
+  - CNAME
 
 defaults:
   -
@@ -58,16 +60,3 @@ kramdown:
 
 minima:
   date_format: "%Y-%m-%d"
-
-sitemap:
-    file: "/sitemap.xml"
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-        - "/404.html"
-        - "*.log"
-    include_posts:
-        - "/index.html"
-    change_frequency_name: "change_frequency"
-    priority_name: "priority"

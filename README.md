@@ -1,5 +1,11 @@
 # 郑海山的个人主页
 
+个人主页地址：[https://dog.xmu.edu.cn](https://dog.xmu.edu.cn)
+
+微信公众号名“郑海山dump”，号为“zhsdump”。欢迎扫码关注互动。
+
+![](https://dog.xmu.edu.cn/images/zhsdump.jpg)
+
 ## jekyll local setup
 
     vagrant up

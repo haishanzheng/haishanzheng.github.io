@@ -5,7 +5,7 @@ date:   2019-04-09 15:28:09 +0800
 
 管理学上有一句名言，**If You Can't Measure It, You Can't Manage It**。对于监控的重要性我就不细说了，原先我们使用Nagios、Catti、SmokePing、Icinga。Prometheus、Grafana、collectd、ELK、Graylog2啥的乱78糟的也都在用，每个开源软件都有他的适用场景。最近是由于原先安装的Nagios操作系统版本太老了，而且Nagios都9102年了都没什么大更新，索性我重新做了升级，并且全程使用了自动化部署，将一键部署源代码放在GitHub上，
 
-https://github.com/haishanzheng/CampusMonitor 
+https://github.com/haishanzheng/CampusMonitor
 
 欢迎试用，觉得好用，请Star，有意见或者建议欢迎写信给haishanzheng@sina.com。
 

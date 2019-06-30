@@ -1,6 +1,6 @@
 ---
 title:  "Visual Studio Code支持远程开发了"
-date:   2019-05-08 15:28:09 +0800
+date:   2019-05-18 15:28:09 +0800
 ---
 
 [VS Code Remote 发布！开启远程开发新时代](http://mp.weixin.qq.com/s?__biz=MjM5NTE3NDgyMg==&mid=2650321268&idx=1&sn=d001c2e0a4f72c32477081eedd31c210&chksm=bef091bd898718ab2b293bedd2bd12c02997b2db4ce09a918ebd217e395321669841840e44e4&scene=21#wechat_redirect)

@@ -4,6 +4,10 @@ title: 论文发表
 permalink: /paper/
 ---
 
+### [11]郑海山.[开源监控系统让运维更高效](http://media.cutech.edu.cn/jsgl/wlaq/201906/t20190605_1662029.shtml)[J].中国教育网络,2016,(06):64-66.
+
+> 摘要：通过对高校信息中心监控目标的分析，通过编写自动化部署工具一键部署起包括Zabbix、Grafana、Icinga、SmokePing等多个适合高校信息中心的开源监控系统，实现了信息中心对访问互联网网速的测量和对数据中心业务的监控，提高了信息中心的运维水平。
+
 ### [10]Zheng H, Jiang X. [Design and Implementation of College Consumption Analysis System Based on NoSQL Database](/images/paper/design-and-implementation-of-college-consumption-analysis-system-based-on-nosql-database.pdf)[C]//2018 13th International Conference on Computer Science & Education (ICCSE). IEEE, 2018: 1-5.
 
 > Abstract: This paper is aimed at mitigating the difficulty of analyzing students' personal consumption patterns by successfully coping with the large volume of student consumption data that exists. Most universities store their consumption data in relational databases; the amount of data is huge, but the databases performance only enables it to show the students consumption records from recent days. The delay when performing big data analysis in relational databases is very large. This article proposes a method by exporting data from relational database to NoSQL database, selecting the right database to balance the delay of importing and querying time and using load balancing, caching, and other tuning strategies to reduce the response time of web application, achieving a good user experience under a high concurrency environment. Using this method, students can view their consumption data analysis in seconds.

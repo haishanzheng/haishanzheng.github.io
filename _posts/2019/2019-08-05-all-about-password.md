@@ -116,7 +116,7 @@ No code is the best way to write secure and reliable applications. Write nothing
 
 ## 尽量减少密码输入的次数
 
-每次输入密码，都可能被本地按键监听，或者在互联网传输被监听。
+每次输入密码，都可能被本地按键监听，被人在后面偷看，或者在互联网传输被监听。
 
 如果你在某个站点尝试密码错误，就不要傻傻将所有密码都试一遍了，因为有可能导致密码被记忆。
 

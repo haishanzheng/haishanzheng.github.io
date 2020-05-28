@@ -16,7 +16,7 @@ permalink: /paper/
 
 > Abstract: This paper is aimed at mitigating the difficulty of analyzing students' personal consumption patterns by successfully coping with the large volume of student consumption data that exists. Most universities store their consumption data in relational databases; the amount of data is huge, but the databases performance only enables it to show the students consumption records from recent days. The delay when performing big data analysis in relational databases is very large. This article proposes a method by exporting data from relational database to NoSQL database, selecting the right database to balance the delay of importing and querying time and using load balancing, caching, and other tuning strategies to reduce the response time of web application, achieving a good user experience under a high concurrency environment. Using this method, students can view their consumption data analysis in seconds.
 
-### [9]郑海山,屈斌,许卓斌.[让二级学院也拥有漏洞扫描能力](http://www.media.edu.cn/jsgl/wlaq/201804/t20180423_1596753.shtml)[J].中国教育网络,2018,(04):61-52.
+### [9]郑海山,屈斌,许卓斌.[让二级学院也拥有漏洞扫描能力](http://media.cutech.edu.cn/jsgl/wlaq/201804/t20180423_1596753.shtml)[J].中国教育网络,2018,(04):61-52.
 
 > 摘要：厦门大学通过安全服务外包和采购漏洞扫描设备并开放给二级学院管理员使用的方法，探索全民参与网络安全的道路。
 

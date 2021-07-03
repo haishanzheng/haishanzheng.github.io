@@ -31,7 +31,7 @@ date:   2021-07-02 16:55:01 +0800
 
 技术一点说，就是XFF是在HTTP header里面的一个非标准化以X-开头的字段（真正的规范是Forwarded，rfc7239），一旦经过一个代理（正向、反向），代理就会把跟他连接的设备IP地址使用“逗号+空格”加到XFF字段内，继续往后传递。也就是，最后到开发手里，可能会是这么一个字符串：
 
-```python
+```sh
 X-Forwarded-For: client_ip, forward_proxy1, forward_proxy2, reverse_proxy1, reverse_proxy2
 ```
 
@@ -76,7 +76,7 @@ X-Forwarded-For: client_ip, forward_proxy1, forward_proxy2, reverse_proxy1, reve
 - 我试验了多个字段同时存在的优先级
 - 我试验了各个地方尝试注入
 
-以上纯虚虚构，我其实没做。。。
+以上纯属虚构，我其实没做。。。
 
 ## 最佳实践
 

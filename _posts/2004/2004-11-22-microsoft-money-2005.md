@@ -3,7 +3,7 @@ title:  "Microsoft Money 2005"
 date:   2004-11-22 23:34:19 +0800
 ---
 
-一直没机会用上Money 2005，原因是2005无法正常转换2004的数据库文件，今天[hwTony](http://blogs.xmu.edu.cn/wayne/)说Money 2005自动更新后已经可以正常转换旧版Money数据库了，于是立刻安装了来尝新。  
+一直没机会用上Money 2005，原因是2005无法正常转换2004的数据库文件，今天hwTony http://blogs.xmu.edu.cn/wayne/ 说Money 2005自动更新后已经可以正常转换旧版Money数据库了，于是立刻安装了来尝新。  
 
 winxp系统可以直接安装Money 2005，而在我的win2k上，必须先安装一下Money 2004，他会安装上Microsoft Money 2004 System Pack和Microsoft Money 2004，然后删除Microsoft Money 2004，留着System Pack才可以安装2005，否则会提示某些包不全无法安装。  
 

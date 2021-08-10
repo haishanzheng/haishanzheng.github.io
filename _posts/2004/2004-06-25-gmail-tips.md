@@ -5,7 +5,7 @@ date:   2004-06-25 12:33:36 +0800
 
 来自好友zhuqingjia的消息：  
 
-[Do I smell a "Gmail Hacks" book here?](http://indrayam.com/archives/services_and_software/000309.php)  
+Do I smell a "Gmail Hacks" book here? http://indrayam.com/archives/services_and_software/000309.php   
 
 Gmail Tip #1: How I "Imported" archived email into Gmail  
 

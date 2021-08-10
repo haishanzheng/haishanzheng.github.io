@@ -3,9 +3,9 @@ title:  "网络中心新闻发布 Rss Feed"
 date:   2003-12-05 13:48:33 +0800
 ---
 
-本单位（[厦大计算机网络管理中心](http://network.xmu.edu.cn)）经常发布一些关于安全或者网络状况的通告，要叫别人经常关注网络中心主页也不是一件太轻松的事，于是想起给加一个Rss Feed，这样就可以自动访问了:)采用rss 0.9的格式，奇怪的是在IE里面点击链接无法正常显示，在Editplus和FeedDemon下一切正常。先试运行吧。  
+本单位（厦大计算机网络管理中心 http://network.xmu.edu.cn ）经常发布一些关于安全或者网络状况的通告，要叫别人经常关注网络中心主页也不是一件太轻松的事，于是想起给加一个Rss Feed，这样就可以自动访问了:)采用rss 0.9的格式，奇怪的是在IE里面点击链接无法正常显示，在Editplus和FeedDemon下一切正常。先试运行吧。  
 
-厦门大学计算机网络管理中心新闻发布 XML链接 [![](http://network.xmu.edu.cn/images/xml.gif)](http://network.xmu.edu.cn/AnnRss.asp)  
+厦门大学计算机网络管理中心新闻发布 XML链接 ![ http://network.xmu.edu.cn/images/xml.gif ](http://network.xmu.edu.cn/AnnRss.asp)  
 
 下一步是鼓浪听涛各个板块的RSS Feed了。。。咳咳。  
 

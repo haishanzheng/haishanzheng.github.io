@@ -3,7 +3,7 @@ title:  "使用PhantomJS对网站截图和遇到的一些问题"
 date:   2017-03-05 19:50:12 +0800
 ---
 
-最近写备案系统，备案系统其实就是将厦门大学所有网站都做个备案，以备在网站遇到安全问题可以联系到人处理。由于有了备案，有了网站列表，顺便就可以生成网址导航，跟现在的[厦门大学校内网址导航](http://123.xmu.edu.cn)一样。目前旧版123网址导航（数据有点老，新的还在开发中）我是通过VS.NET，写了个Form，在上面放了个WebBrowser，对数据库的每个网址，均去Navigator一下，获得ScrollRectangle.Width和ScrollRectangle.Height，等待一段时间，然后截图，可以截取下首页的[整个页面](http://123.xmu.edu.cn/all.php)。
+最近写备案系统，备案系统其实就是将厦门大学所有网站都做个备案，以备在网站遇到安全问题可以联系到人处理。由于有了备案，有了网站列表，顺便就可以生成网址导航，跟现在的厦门大学校内网址导航 http://123.xmu.edu.cn 一样。目前旧版123网址导航（数据有点老，新的还在开发中）我是通过VS.NET，写了个Form，在上面放了个WebBrowser，对数据库的每个网址，均去Navigator一下，获得ScrollRectangle.Width和ScrollRectangle.Height，等待一段时间，然后截图，可以截取下首页的整个页面 http://123.xmu.edu.cn/all.php 。
 
 备案系统是在Linux下用Python写的，所以我还需要新建一台Windows虚拟机，在上面计划任务跑个程序，还需要去Linux服务器获取网站列表。算是很麻烦，但是可以解决。
 

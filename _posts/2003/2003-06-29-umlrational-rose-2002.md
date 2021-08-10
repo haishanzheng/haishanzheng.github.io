@@ -7,7 +7,7 @@ Wendy Boggs和Michael Boggs著，电子工业出版社出版，全书才500多�
 
 读书笔记后续会慢慢发布。  
 
-其他：[厦门对外图书交流中心](http://www.xibc.com.cn)，这个网站还是Beta和Asadi，Soncy写的哈。  
+其他：厦门对外图书交流中心 http://www.xibc.com.cn ，这个网站还是Beta和Asadi，Soncy写的哈。  
 
 
 ## 评论

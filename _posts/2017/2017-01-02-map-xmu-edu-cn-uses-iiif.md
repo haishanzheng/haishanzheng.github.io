@@ -5,7 +5,7 @@ date:   2017-01-02 16:25:09 +0800
 
 上周三晚上参加图书馆的泛技术分享会，陈晓亮介绍了IIIF，突然脑内某神经元之间脂肪条连接，这个可以运用在厦门大学地理信息系统的移动端。厦门大学地理信息系统，基于Flash，移动端无法浏览。如果有人要访问，我一般都会推荐去百度或者腾讯地图，不敢推我们自己的东西，蛮丢人的。
 
-于是立刻搭起来IIIF服务器，使用Leaflet，使用Leaflet-IIIF插件，前端Nginx做应用交付，URL重写。加个Flash检测JavaScript脚本。整个流程就是，访问[map.xmu.edu.cn](http://map.xmu.edu.cn)，Nginx转发到新服务器的Apache，判断，如果有安装Flash，直接跳到Nginx代理的旧地图服务，保留了原先的URL，否则使用Leaflet查看地图照片。
+于是立刻搭起来IIIF服务器，使用Leaflet，使用Leaflet-IIIF插件，前端Nginx做应用交付，URL重写。加个Flash检测JavaScript脚本。整个流程就是，访问map.xmu.edu.cn http://map.xmu.edu.cn ，Nginx转发到新服务器的Apache，判断，如果有安装Flash，直接跳到Nginx代理的旧地图服务，保留了原先的URL，否则使用Leaflet查看地图照片。
 
 所以抢救的结果就是，原先你用移动客户端啥都看不到，现在至少你可以看图片了，这个图片可以放大缩小，按需下载显示的区域减少流量，仅此而已。
 
@@ -27,11 +27,11 @@ date:   2017-01-02 16:25:09 +0800
 
 ### IIIF
 
-[International Image Interoperability Framework](http://iiif.io/)的中文是国际图像互操作框架，我在写本文的时候找中文资料少之又少，可能还没开始流行起来。[国际图像互操作组织成立](http://www.cnki.com.cn/Article/CJFDTotal-BJJG201504018.htm)。
+International Image Interoperability Framework http://iiif.io/ 的中文是国际图像互操作框架，我在写本文的时候找中文资料少之又少，可能还没开始流行起来。国际图像互操作组织成立 http://www.cnki.com.cn/Article/CJFDTotal-BJJG201504018.htm 。
 
 > 2015年6月18日，大英图书馆、新西兰国家图书馆、欧罗巴那数字图书馆、牛津大学图书馆、哈佛大学等29个非营利图像资源存储机构共同成立国际图像互操作组织(ⅢF)，旨在确保全球图像存储的互操作性和可获取性，对以图像为载体的书籍、地图、卷轴、手稿、乐谱、档案资料等在线资源进行统一展示和使用。
 
-IIIF实际上提供了一个能力，对于有高分辨率大图的图书馆或者博物馆，希望图片资源有更多的消费者，但是消费者又有不同的需求，不可能为每个消费者各个访问终端提供所有尺寸和格式的照片，然而又希望消费者能够链接到他而不是下载了图片自行处理导致使用率无法跟踪，也导致互联网重复照片增多。所以使用IIIF协议，提供3种API（[Image API](http://iiif.io/api/image/2.1/)、[Presentation API](http://iiif.io/api/presentation/2.1/)、[Search API](http://iiif.io/api/search/1.0/)）。比如Image API，每张高分辨率大图都有一个JSON格式的说明，介绍了图片的结构和描述性信息，同时支持以URL直接对图像进行处理，大小、裁剪、旋转、压缩质量、格式等等，按需生成。URL格式类似：http://iiif.example.com/image_file_name/full/400,/0/default.jpg ，唯一清晰易懂。
+IIIF实际上提供了一个能力，对于有高分辨率大图的图书馆或者博物馆，希望图片资源有更多的消费者，但是消费者又有不同的需求，不可能为每个消费者各个访问终端提供所有尺寸和格式的照片，然而又希望消费者能够链接到他而不是下载了图片自行处理导致使用率无法跟踪，也导致互联网重复照片增多。所以使用IIIF协议，提供3种API（Image API http://iiif.io/api/image/2.1/ 、Presentation API http://iiif.io/api/presentation/2.1/ 、Search API http://iiif.io/api/search/1.0/ ）。比如Image API，每张高分辨率大图都有一个JSON格式的说明，介绍了图片的结构和描述性信息，同时支持以URL直接对图像进行处理，大小、裁剪、旋转、压缩质量、格式等等，按需生成。URL格式类似：http://iiif.example.com/image_file_name/full/400,/0/default.jpg ，唯一清晰易懂。
 
 IIIF网站有服务端和客户端的实现，也就是你只要扔给服务端一张大图，上面的要求都可以自动帮你完成。
 
@@ -42,7 +42,7 @@ IIIF网站有服务端和客户端的实现，也就是你只要扔给服务端�
 使用fcgid在Apache2下面跑。
 
 ### 大图处理
-我们地图的底图是一张JPEG，由于IIPImage Server对TIFF的支持比较简单，无需再安装第三方类库，所以直接把JPEG转换成多分辨率格式的TIFF、[金字塔层式TIFF](http://www.digitalpreservation.gov/formats/fdd/fdd000237.shtml)。命令如下：
+我们地图的底图是一张JPEG，由于IIPImage Server对TIFF的支持比较简单，无需再安装第三方类库，所以直接把JPEG转换成多分辨率格式的TIFF、金字塔层式TIFF http://www.digitalpreservation.gov/formats/fdd/fdd000237.shtml 。命令如下：
 
 	convert sm.jpg -compress jpeg -quality 90 -define tiff:tile-geometry=256*256 ptif:sm.tif
 
@@ -51,7 +51,7 @@ IIIF网站有服务端和客户端的实现，也就是你只要扔给服务端�
 
 ### 前端
 
-Nginx做代理。leaflet和leaflet-iiif展示大图，把其他校区分校的效果图拿来替换。[Flash Detection Library](http://www.featureblend.com/javascript-flash-detection-library.html)做Flash组件检测。
+Nginx做代理。leaflet和leaflet-iiif展示大图，把其他校区分校的效果图拿来替换。Flash Detection Library http://www.featureblend.com/javascript-flash-detection-library.html 做Flash组件检测。
 
 **也就是，非常少的工作量，非常少的代码，让地理信息系统支持了移动端，虽然只能看图片，聊胜于无。**
 

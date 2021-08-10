@@ -5,7 +5,7 @@ date:   2003-12-25 14:57:22 +0800
 
 来自张睃武的信息：  
 
-我是[egroupware](http://www.egroupware.org)项目组的睃武。egroupware是全球规模最大的开放群件（协同工作软件）项目之一，目前有近30万行源代码，复杂度逾700人月（使用COCOMO模型计算），有近百人参与开发、项目讨论、提交错误报告、发布补丁。  
+我是egroupware http://www.egroupware.org 项目组的睃武。egroupware是全球规模最大的开放群件（协同工作软件）项目之一，目前有近30万行源代码，复杂度逾700人月（使用COCOMO模型计算），有近百人参与开发、项目讨论、提交错误报告、发布补丁。  
 
 egroupware项目组赶在圣诞前发布了RC2版。RC2还有很多地方应该更完善，请现在就安装一套试用，中文demo版的地址是[http://egroupware.sf.net/demo-cn]（为保护网站资源demo站点上过半数模块己被隐藏）。  
 

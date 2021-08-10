@@ -3,8 +3,8 @@ title:  "PostNuke .726 is Ready for Download"
 date:   2003-07-31 19:56:38 +0800
 ---
 
-7月27号发布 [原始新闻](http://news.postnuke.com/modules.php?op=modload&name=News&file=article&sid=2453&mode=thread&order=0&thold=0)  
-7月31号发布 无雨的[中文版下载地](http://www.chinammgg.com/modules.php?op=modload&name=News&file=article&sid=162&mode=thread&order=0&thold=0)  
+7月27号发布 原始新闻 http://news.postnuke.com/modules.php?op=modload&name=News&file=article&sid=2453&mode=thread&order=0&thold=0   
+7月31号发布 无雨的中文版下载地 http://www.chinammgg.com/modules.php?op=modload&name=News&file=article&sid=162&mode=thread&order=0&thold=0   
 
 要搭建一个跟我一样的blog空间么？那就赶快去下载。  
 

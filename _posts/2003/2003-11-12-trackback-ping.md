@@ -3,7 +3,7 @@ title:  "写了一个小的Trackback ping页面"
 date:   2003-11-12 11:13:13 +0800
 ---
 
-[Hilton](http://hedong.3322.org/)在我的What is the TrackBack的review里提到：  
+Hilton http://hedong.3322.org/ 在我的What is the TrackBack的review里提到：  
 
 _你这个手工ping的方法，很有创新啊。我一直在想，如果没trackback的功能的系统，怎么来ping啊？有你这个，问题似乎容易了。hehe.不过有一点，就是trackback规范已经声明，初步放弃对get方法的支持，此时用这就方法可能会出一些问题。_  
 

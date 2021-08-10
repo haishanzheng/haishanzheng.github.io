@@ -22,9 +22,9 @@ ft，考验你的弱智度和耐性的时候到了。如果你最近被mm逼疯�
 
 这个游戏目前有Palm版本，ppc版本和pc版本。对于后2个版本，请自行google:)  
 
-其他资源：[这](http://www.palmapps.com/aargon/)是官方主页。  
-tompda.com上G4Cube贴的[所有solution](http://www.tompda.com/bbs/display.asp?forumID=524498&luntan=1&CurPageNo=1)，我Print This Topic并Clip To Plam，留着备用，希望永远用不着哈。  
-xx版本请到[www.palmstamp.com](http://www.palmstamp.com)搜索。  
+其他资源：这 http://www.palmapps.com/aargon/ 是官方主页。  
+tompda.com上G4Cube贴的所有solution http://www.tompda.com/bbs/display.asp?forumID=524498&luntan=1&CurPageNo=1 ，我Print This Topic并Clip To Plam，留着备用，希望永远用不着哈。  
+xx版本请到www.palmstamp.com http://www.palmstamp.com 搜索。  
 
 palmstamp.com反对任何形式的盗链，我这里不直接给出下载地址，请自行查找，如果你实在找不到，请联系我:)  
 

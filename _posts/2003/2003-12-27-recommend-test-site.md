@@ -5,11 +5,11 @@ date:   2003-12-27 21:49:10 +0800
 
 推荐2个不错的测试网站：  
 
-[测试时代](http://www.testage.net/)  
+测试时代 http://www.testage.net/   
 
-[测试工程师](http://opentest.51.net/index.htm)  
+测试工程师 http://opentest.51.net/index.htm   
 
-[软件工程专家网软件测试栏目](http://www.51cmm.com/SoftTesting/)  
+软件工程专家网软件测试栏目 http://www.51cmm.com/SoftTesting/   
 
 测试时代有一些ppt文档下载，就我自己看了而言，大致说几个我自己感兴趣的。  
 

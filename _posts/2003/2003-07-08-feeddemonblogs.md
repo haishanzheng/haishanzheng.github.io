@@ -36,7 +36,7 @@ thx hwTony。。。
 **匿名** 在 *2003-07-14 13:09:35* 说: 下载链接是不是出错了?下不了  e文的  
 
 *****
-**郑海山** 在 *2003-07-09 15:55:10* 说: hehe，给图片叫上全名就可以了。你可以看到我以前的图片是src=/images/aritclesimage/，现在都换成src=http://dog.xmu.edu.cn/images/articlesimage了。就是这个原因。。。
+**郑海山** 在 *2003-07-09 15:55:10* 说: hehe，给图片叫上全名就可以了。你可以看到我以前的图片是src=/images/aritclesimage/，现在都换成src=https://dog.xmu.edu.cn/images/articlesimage了。就是这个原因。。。
 
 *****
 **匿名** 在 *2003-07-09 10:46:07* 说: 在feedemon中，可以看到你的文章里的照片，

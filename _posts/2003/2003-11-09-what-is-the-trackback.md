@@ -12,7 +12,7 @@ date:   2003-11-09 19:17:58 +0800
 
 1. 点击某篇文章的TrackBack链接，得到一个url。  
 2. 用记事本拷贝TrackBack的url?url=你的url&title;=你的title&blog;_name=你的blog的名字&excerpt;=显示在对方那边的引用文字，然后替换内容，替换后可能为  
-http://blogs.xmu.edu.cn/cgi-bin/mt-tb.cgi/230?url=http://dog.xmu.edu.cn&title;=测试tb&blog;_name=郑海山的Blog&excerpt;=显示在对方那边的引用文字  
+http://blogs.xmu.edu.cn/cgi-bin/mt-tb.cgi/230?url=https://dog.xmu.edu.cn&title;=测试tb&blog;_name=郑海山的Blog&excerpt;=显示在对方那边的引用文字  
 3. 在IE里面提交这个URL，这样你的url就在对方的TrackBack数据库里面登记了。  
 4. 你已经跟人家说了，所以现在你的文章里面可以引用他的url了，不过这个url不要跟TrackBack的url混淆起来咯。  
 

@@ -11,7 +11,7 @@ date:   2004-03-18 21:50:36 +0800
 
     #Written by Haishion @ xmubbs  
 
-    #blog: http://dog.xmu.edu.cn  
+    #blog: https://dog.xmu.edu.cn  
 
     #email: haishanzheng AT sina DOT com  
 

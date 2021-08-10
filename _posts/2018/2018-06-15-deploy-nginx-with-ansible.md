@@ -9,7 +9,7 @@ date:   2018-06-15 15:28:09 +0800
 
 ## 本Git代码适用范围
 
-假设你有一个老旧的Web站点 http://dog.xmu.edu.cn ，IP地址为IPv4 1.2.3.4 ，你再提供一台配置了IPv6的Ubuntu 18.04 LTS服务器，Clone我的代码，跑一条命令，会帮你把HTTPS和HTTP/2全部配置完毕，然后你测试正常后，修改下DNS，把 dog.xmu.edu.cn 指向新的IPv4和IPv6地址即可。
+假设你有一个老旧的Web站点 https://dog.xmu.edu.cn ，IP地址为IPv4 1.2.3.4 ，你再提供一台配置了IPv6的Ubuntu 18.04 LTS服务器，Clone我的代码，跑一条命令，会帮你把HTTPS和HTTP/2全部配置完毕，然后你测试正常后，修改下DNS，把 dog.xmu.edu.cn 指向新的IPv4和IPv6地址即可。
 
 中间是无缝的，干净的，测试完备的。时间在5分钟。
 

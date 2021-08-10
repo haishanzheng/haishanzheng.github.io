@@ -110,7 +110,7 @@ p.s. here is my blog site: nixz.blogbus.com and gostandrews.com/blog
 Not decided which one is better yet.
 
 *****
-**郑海山** 在 *2003-05-30 16:17:06* 说: RSS，你可以用php生成，也可以用asp生产。或者用手动生成也行。格式可以看我主页上的 http://dog.xmu.edu.cn 这个。
+**郑海山** 在 *2003-05-30 16:17:06* 说: RSS，你可以用php生成，也可以用asp生产。或者用手动生成也行。格式可以看我主页上的 https://dog.xmu.edu.cn 这个。
 
 还有CNBlog的 http://www.cnblog.org/blog/archives/2002_10_20_cnblog_archive.html#83274205 什么是RSS？</a>
 

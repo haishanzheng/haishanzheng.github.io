@@ -8,9 +8,9 @@ date:   2004-03-02 17:28:10 +0800
 ![](/images/2011/msn6/infopen.gif)  
 推荐安装一个来玩玩，MSN聊天输入已经从纯文本->键盘快捷键替换图释->直接手输入转换图片进化了哈。  
 
-可到[这里](http://www.infopen.com.cn/)下载测试版本。  
+可到这里下载测试版本。  
 
-Spacenet又发现一个免费的手写软件，就是大名鼎鼎的Messenger Plus!的HandWriting Plugin，可以[试试](http://www.msgplus.net/)咯。  
+Spacenet又发现一个免费的手写软件，就是大名鼎鼎的Messenger Plus!的HandWriting Plugin，可以试试咯。  
 
 
 ## 评论

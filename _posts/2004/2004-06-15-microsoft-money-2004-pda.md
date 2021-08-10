@@ -12,7 +12,7 @@ date:   2004-06-15 15:24:14 +0800
 
 搞笑是这么搞笑，关于palm和ppc的优劣，我不再讨论什么。其实palm和ppc都没有错，关键在于使用的人，跟这个人的能力有关系，能力包括选择软件的能力，有时候笨也是一种能力，笨到觉察不出有区别，就算觉察出来了，那就开始检验你的忍受能力，在plam上写日程要点3次，在ppc要4次，但是我能忍受。咳咳。  
 
-胡扯完了，来说点正经的，Palm上和Money配合最完美也是PDA界和PC界Money配合最完美的要数[UltraMoney](http://www.ultrasoft.com/Money/)了，即使脱离PC的Money，UltraMoney也可以正常使用，使用UltraMoney你可以新建立帐号，输入交易，管理bill，查看report。输入交易也非常方便，用户界面非常友好。由于mp3不在我这，所以无法截图，这是[Handango.com](http://www.handango.com/PlatformProductDetail.jsp?siteId=852&jid=XF5X25A5147146EB18775D72EFDXF866&platformId=1&productType=2&catalog=0&sectionId=0&productId=4384)上的图。  
+胡扯完了，来说点正经的，Palm上和Money配合最完美也是PDA界和PC界Money配合最完美的要数UltraMoney http://www.ultrasoft.com/Money/ 了，即使脱离PC的Money，UltraMoney也可以正常使用，使用UltraMoney你可以新建立帐号，输入交易，管理bill，查看report。输入交易也非常方便，用户界面非常友好。由于mp3不在我这，所以无法截图，这是Handango.com http://www.handango.com/PlatformProductDetail.jsp?siteId=852&jid=XF5X25A5147146EB18775D72EFDXF866&platformId=1&productType=2&catalog=0&sectionId=0&productId=4384 上的图。  
 
 查看account的图。  
 ![](/images/2011/money/umaccount.gif)  

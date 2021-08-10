@@ -5,13 +5,13 @@ date:   2017-09-18 14:37:09 +0800
 
 首先解释下标题：中不是种，过是指时间的曾经有过而不是说是种过的。我测试过很多个SSH客户端工具，由于安全运维和费用的问题，一直没有找到趁手的，直到某天在群里从北交大贺秋雨和审计大学吴鑫处得知Xshell有针对个人和学校的免费版。
 
-但是Xshell被放过后门，[XShell官方软件被植入后门溯源分析](http://www.freebuf.com/articles/terminal/144254.html)，从一个侧面说明这个软件开发商安全防护较弱，然而你是要信任一个从没暴露过安全问题还是一个曾经出现过安全问题的厂商，我选择了后者，我希望他们应该会有改进。
+但是Xshell被放过后门，XShell官方软件被植入后门溯源分析 http://www.freebuf.com/articles/terminal/144254.html ，从一个侧面说明这个软件开发商安全防护较弱，然而你是要信任一个从没暴露过安全问题还是一个曾经出现过安全问题的厂商，我选择了后者，我希望他们应该会有改进。
 
 ![](/images/2017/77-heartbreaks.jpg)
 
 ## 我的需求
 - 不使用盗版，不使用任何修改原始EXE文件的盗版，各种破解可能被植入木马。
-- 必须从原始站点下载。[中文版putty后门事件分析](http://www.cnbeta.com/articles/tech/171116.htm)。
+- 必须从原始站点下载。中文版putty后门事件分析 http://www.cnbeta.com/articles/tech/171116.htm 。
 - 免费。办公经费买工具软件？我好像很少听说。（其实收费不高，如果被渗透损失比这个高多了，为什么不花钱买呢？公司为你买了一台i7、32G、512SSD，你说我还要正版Windows、Acronis、Office、Visio、JetBrains、Sublime Text 3、VS.NET、GitHub会员、Jira、PS、Acrobat、1Password，VMware Workstation、AWVS、IP Proxy Pool、国外SSH主机。。。滚）。
 - 分组的地址簿：我要登录200台不同的服务器，如果无法分组是无法想象的。直接输入IP容易犯错，而且不同服务器私钥不同。
 

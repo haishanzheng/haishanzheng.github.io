@@ -3,7 +3,7 @@ title:  "Microsoft Money 2004 入门 安装篇"
 date:   2004-03-11 17:07:14 +0800
 ---
 
-请自行寻找下载位置，可去[Microsoft Money](http://www.microsoft.com/money)下载60天测试版本。如果你是[tompda](http://www.tompda.com)网友，可去iamcj的ftp下载（你当然知道他的IP地址）。如果你是厦大网友。。。我已为你准备好了一切，在厦大的某个站点上查找。  
+请自行寻找下载位置，可去Microsoft Money http://www.microsoft.com/money 下载60天测试版本。如果你是tompda http://www.tompda.com 网友，可去iamcj的ftp下载（你当然知道他的IP地址）。如果你是厦大网友。。。我已为你准备好了一切，在厦大的某个站点上查找。  
 
 请不要发mail向我索取Money安装文件，我将可能不会做任何解答，除非特别紧急。  
 

@@ -3,7 +3,7 @@ title:  "搜索厦大"
 date:   2003-07-03 19:31:05 +0800
 ---
 
-要在[厦大主页](http://www.xmu.edu.cn)内找一个东西，确实会比较麻烦，特别是对第一次来厦大主页的人来说。以前的厦大主页一直都没有全站搜索的功能，已经结束的[厦大门户网站设计大赛](http://design.xmu.edu.cn/)就有一点特别要求要预留搜索筐，不过美工预留简单，技术实现就比较麻烦了。ocean老师跟我们（我，Beta，htt）谈了希望在厦大主页上增加搜索厦大主页或者厦大所有WEB服务器的功能，于是我们分头去找，结果是找不到任何可用的程序。要是ftp搜索，sourceforge有一个parker很成功，可是www搜索，好像就没有看到有这方面的开源程序。  
+要在厦大主页 http://www.xmu.edu.cn 内找一个东西，确实会比较麻烦，特别是对第一次来厦大主页的人来说。以前的厦大主页一直都没有全站搜索的功能，已经结束的厦大门户网站设计大赛 http://design.xmu.edu.cn/ 就有一点特别要求要预留搜索筐，不过美工预留简单，技术实现就比较麻烦了。ocean老师跟我们（我，Beta，htt）谈了希望在厦大主页上增加搜索厦大主页或者厦大所有WEB服务器的功能，于是我们分头去找，结果是找不到任何可用的程序。要是ftp搜索，sourceforge有一个parker很成功，可是www搜索，好像就没有看到有这方面的开源程序。  
 
 当然，如果用户可以访问google，就可以用site:xmu.edu.cn 关键字锁定范围来搜索厦大网的内容。但是还是有很多人无法直接访问google，于是我们就讨论了这么一种方式，就是利用了google的资源。我们拿一台服务器，把那台服务器当成一个proxy，用户在本地服务器输入关键字，proxy跑去抓google的搜索结果。  
 
@@ -19,11 +19,11 @@ date:   2003-07-03 19:31:05 +0800
 
 搜索厦大，ing。  
 
-[校务公开](http://xwgk.xmu.edu.cn)，我和htt，twsixsix做的，抓取学校各部处的最新通知并统一显示。  
+校务公开 http://xwgk.xmu.edu.cn ，我和htt，twsixsix做的，抓取学校各部处的最新通知并统一显示。  
 
-[厦大ftp搜索](http://210.34.18.2)，Beta和hwTony用[parker](http://sourceforge.net/projects/parker)搭建的。  
+厦大ftp搜索 http://210.34.18.2 ，Beta和hwTony用parker http://sourceforge.net/projects/parker 搭建的。  
 
-[厦大ppmm搜索](http://no.this.domain/nothispage.php)。都说厦大ppmm多，可是真要找起来，还有点难度，而且有些ppmm养在深闺无人识，于是就有了这么一个搜索网站，该搜索关键字支持数学表达式，比如：身高 > 190 AND 体重 < 20 AND 性格 = 怪异。  
+厦大ppmm搜索 http://no.this.domain/nothispage.php 。都说厦大ppmm多，可是真要找起来，还有点难度，而且有些ppmm养在深闺无人识，于是就有了这么一个搜索网站，该搜索关键字支持数学表达式，比如：身高 > 190 AND 体重 < 20 AND 性格 = 怪异。  
 
 
 ## 评论

@@ -11,7 +11,7 @@ header("Content-Type: text/xml");
 Response.AddHeader "Content-Type", "text/xml"  
 果然就正常显示了。  
 
-接着又修改了一下description，改成用，省得还得转换。。。呵呵。点击[这里](http://network.xmu.edu.cn/AnnRss.asp)查看。  
+接着又修改了一下description，改成用，省得还得转换。。。呵呵。点击这里 http://network.xmu.edu.cn/AnnRss.asp 查看。  
 
 RSS是个好东西，应该在全校各职能部门网站提倡这个规范。  
 

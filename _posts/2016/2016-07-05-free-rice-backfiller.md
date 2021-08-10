@@ -117,15 +117,15 @@ ES路走不了，于是考虑更换数据库，找了何伟平咨询，tony认�
 
 
 ## 引用
-[ElasticSearch](http://elastic.co/)
+ElasticSearch http://elastic.co/ 
 
 [mongoDB 手册](https://docs.mongodb.com/manual/introduction/)
 
-[MongoDB与内存](http://huoding.com/2011/08/19/107)
+MongoDB与内存 http://huoding.com/2011/08/19/107 
 
-[FLASK使用小结](http://www.wklken.me/posts/2013/09/09/python-framework-flask.html#session)
+FLASK使用小结 http://www.wklken.me/posts/2013/09/09/python-framework-flask.html#session 
 
-[使用Python操作Redis](http://debugo.com/python-redis/)
+使用Python操作Redis http://debugo.com/python-redis/ 
 
 
 

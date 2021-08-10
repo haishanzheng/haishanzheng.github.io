@@ -23,7 +23,7 @@ EXEC sp_attach_single_file_db @dbname = 'testlog',
   5. 再次备份数据库。  
 
   6. 在数据库的属性窗口限制数据库LOG的大小。或者不限制，过几天再用这个办法清除。  
-另一种办法是下载 [动网论坛Sql日志清除器 V1.1](http://www.mycodes.net/soft/235.htm) ，号称可以在线压缩清除sqlserver log。至今我还未使用成功过，如果你有使用经验，请跟我联系。  
+另一种办法是下载 动网论坛Sql日志清除器 V1.1 http://www.mycodes.net/soft/235.htm  ，号称可以在线压缩清除sqlserver log。至今我还未使用成功过，如果你有使用经验，请跟我联系。  
 
 
 ## 评论

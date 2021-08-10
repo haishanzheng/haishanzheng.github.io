@@ -21,9 +21,9 @@ date:   2004-04-12 22:42:55 +0800
     };  
 
 其他链接：  
-[SPS sdk](http://www.microsoft.com/downloads/details.aspx?FamilyID=1c64af62-c2e9-4ca3-a2a0-7d4319980011&DisplayLang=en)，只包含一个文件MicrosoftWindowsSharePointServicesSDK.chm。  
+SPS sdk http://www.microsoft.com/downloads/details.aspx?FamilyID=1c64af62-c2e9-4ca3-a2a0-7d4319980011&DisplayLang=en ，只包含一个文件MicrosoftWindowsSharePointServicesSDK.chm。  
 
-[A Developer's Introduction to Web Parts](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/odc_sp2003_ta/html/sharepoint_northwindwebparts.asp)，教你一步步编写WebPart。  
+A Developer's Introduction to Web Parts http://msdn.microsoft.com/library/default.asp?url=/library/en-us/odc_sp2003_ta/html/sharepoint_northwindwebparts.asp ，教你一步步编写WebPart。  
 
 
 ## 评论

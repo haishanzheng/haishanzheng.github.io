@@ -3,10 +3,10 @@ title:  "What is The Trackback"
 date:   2003-11-09 19:17:58 +0800
 ---
 
-什么是TrackBack，看看来自[竹笋炒肉](http://hedong.3322.org/)的[1](http://hedong.3322.org/archives/000350.html)、[2](http://hedong.3322.org/archives/000351.html)篇文章，我用比较通俗的语言来说明一下，如果一篇文章（通常表现为一个url）被你引用了，这只是一个单向链接，从你的文章可以到达被你引用的url，但是那个url不可能知道他被你引用了，为了实现双向的链接，使网络上所有的相关资源都网起来（这是共产主义社会），所以当你引用了某个url后，你就跟那个网站（通常是一个cgi或者php脚本）说一声，这个url被我的url xxx链接了，还有我的blog name是什么，等等信息，则被引用的网站会把你提交的这些信息保存起来，下次有人点击这个url的TrackBack就把他显示出来。原理是不是很简单？  
+什么是TrackBack，看看来自竹笋炒肉 http://hedong.3322.org/ 的1 http://hedong.3322.org/archives/000350.html 、2 http://hedong.3322.org/archives/000351.html 篇文章，我用比较通俗的语言来说明一下，如果一篇文章（通常表现为一个url）被你引用了，这只是一个单向链接，从你的文章可以到达被你引用的url，但是那个url不可能知道他被你引用了，为了实现双向的链接，使网络上所有的相关资源都网起来（这是共产主义社会），所以当你引用了某个url后，你就跟那个网站（通常是一个cgi或者php脚本）说一声，这个url被我的url xxx链接了，还有我的blog name是什么，等等信息，则被引用的网站会把你提交的这些信息保存起来，下次有人点击这个url的TrackBack就把他显示出来。原理是不是很简单？  
 
 你会问：如果我实际上没有引用而随便去post我网站的url，会有什么事？  
-当然没事了，看看我在hwTony Blog上刚做的[测试](http://blogs.xmu.edu.cn/cgi-bin/mt-tb.cgi?__mode=view&entry_id=1241)，一点事情都没有:)你不会被人砍更不会被要挟请吃hy什么的。  
+当然没事了，看看我在hwTony Blog上刚做的测试 http://blogs.xmu.edu.cn/cgi-bin/mt-tb.cgi?__mode=view&entry_id=1241 ，一点事情都没有:)你不会被人砍更不会被要挟请吃hy什么的。  
 
 很可惜，PostNuke没有提供自动TrackBack的功能，或许我没找到PlugIns。不过知道了TrackBack的技术实现，我们也可以手动做。  
 

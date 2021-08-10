@@ -7,7 +7,7 @@ date:   2003-07-08 23:43:55 +0800
 
 我很幸运地告诉你，已经有了，还很多，而且大部分专业的blogger都已经在使用。我现在跟你推荐其中的一款FeedDemon。使用FeedDemon，你可以随时掌握好友的动态又不耗费任何力气。正如我一直强调的，blog跟其他主页的区别是blog注重的是内容和时效，网页只是表现形式，blog的主要内容是一篇篇文章，所有的显示模式都是垃圾，一般blog系统都会把blog内容使用遵循RSS标准的XML格式保存起来，这样通过更改XLT，你就可以用IE，手机，PDA等等东西阅读他们。符合RSS标准的XML文件记录了blog最新发布的几条文章的标题，简要内容，发布时间，发布人等等。通常有提供以上提到的RSS XML文件的blog都有一个这种![](/images/2011/tech/xml.gif)图标。FeedDemon就是一款在Windows下自动获取blog XML文件并集中显示的软件。关于更多RSS的信息请查看其他链接。  
 
-  1. 下载[FeedDemon](http://www.feeddemon.com/)的[beta pre-release](http://www.bradsoft.com/feeddemon/beta/index.asp)。
+  1. 下载FeedDemon http://www.feeddemon.com/ 的beta pre-release http://www.bradsoft.com/feeddemon/beta/index.asp 。
 
   2. 下载后双击FeedDemon-beta1a.exe安装。
 

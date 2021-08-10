@@ -5,9 +5,9 @@ date:   2003-09-07 14:54:51 +0800
 
 就我安装一台新机器的步骤一般是，把硬盘分为系统盘C和数据盘D，然后把安装程序都放在D盘，接着在不联网的情况下开始安装机器，等系统、补丁、常用软件都安全好了，再安装一个pcanywhere，就可以接上网线，回到自己的办公桌，泡上一杯咖啡通过远程控制安装维护机器了。安装机器是一件很简单又很浪费时间的事，所以我每次都把安装完的系统做一个备份。如果哪天系统出错，无法启动或者什么，覆盖一下就ok了。  
 
-以前是用PowerQuest的DriverImage备份系统，这是一个非常方便的软件，支持NTFS，可以用online备份某个盘，如果备份目标是正在使用的系统盘，比如说C盘，DriverImage会自动重起并虚拟一个软盘引导系统做好备份再重起。这期间都不用你点击任何按钮，所以你完全可以在远程启动备份然后过10分钟再去连接，备份就已经做好了。不过昨天我在安装了一个 新世纪网络课程建设工程网络教学平台 机器时，安装的是Win2k Server，发现DriverImage无法安装在Server版本上，很是奇怪，不知道Server和pro的机制是否有不同？那[NTSwitch](http://www.southcn.com/it/itschool/200203271138.htm)是不是就是一个骗人的东西？  
+以前是用PowerQuest的DriverImage备份系统，这是一个非常方便的软件，支持NTFS，可以用online备份某个盘，如果备份目标是正在使用的系统盘，比如说C盘，DriverImage会自动重起并虚拟一个软盘引导系统做好备份再重起。这期间都不用你点击任何按钮，所以你完全可以在远程启动备份然后过10分钟再去连接，备份就已经做好了。不过昨天我在安装了一个 新世纪网络课程建设工程网络教学平台 机器时，安装的是Win2k Server，发现DriverImage无法安装在Server版本上，很是奇怪，不知道Server和pro的机制是否有不同？那NTSwitch http://www.southcn.com/it/itschool/200203271138.htm 是不是就是一个骗人的东西？  
 
-最后在kason的提示下找到了PowerQuest的[V2i Protector v2.0 Server Edition](http://www.powerquest.com/v2i/protector/)，看介绍  
+最后在kason的提示下找到了PowerQuest的V2i Protector v2.0 Server Edition http://www.powerquest.com/v2i/protector/ ，看介绍  
 
 _  
 PowerQuest V2i Protector 可以大幅缩短服务器备份及复原时间,为用户提供一个全面的灾难复原方案，可节省大量时间和金钱，并支持持续性服务器备份、快速及时点(point-in-time)系统及数据回复!  

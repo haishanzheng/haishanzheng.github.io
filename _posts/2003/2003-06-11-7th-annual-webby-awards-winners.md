@@ -3,7 +3,7 @@ title:  "7th Annual Webby Awards Winners"
 date:   2003-06-11 10:52:54 +0800
 ---
 
-Presented by [The International Academy of Digital Arts and Sciences](http://www.iadas.net), [The Webby Awards](http://www.webbyawards.com/main/index.html) is the leading international honor for the worlds best web sites. The Academy is proud to present The [7th Annual Webby Awards Winners](http://www.webbyawards.com/main/webby_awards/winners.html).
+Presented by The International Academy of Digital Arts and Sciences http://www.iadas.net , The Webby Awards http://www.webbyawards.com/main/index.html  is the leading international honor for the worlds best web sites. The Academy is proud to present The 7th Annual Webby Awards Winners http://www.webbyawards.com/main/webby_awards/winners.html .
 
 June 5, 2003  
 

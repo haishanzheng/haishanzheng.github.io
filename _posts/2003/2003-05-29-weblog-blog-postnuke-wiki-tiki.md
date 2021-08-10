@@ -110,15 +110,15 @@ p.s. here is my blog site: nixz.blogbus.com and gostandrews.com/blog
 Not decided which one is better yet.
 
 *****
-**郑海山** 在 *2003-05-30 16:17:06* 说: RSS，你可以用php生成，也可以用asp生产。或者用手动生成也行。格式可以看我主页上的<a href="http://dog.xmu.edu.cn">这个</a>。
+**郑海山** 在 *2003-05-30 16:17:06* 说: RSS，你可以用php生成，也可以用asp生产。或者用手动生成也行。格式可以看我主页上的 http://dog.xmu.edu.cn 这个。
 
-还有CNBlog的<a href="http://www.cnblog.org/blog/archives/2002_10_20_cnblog_archive.html#83274205" target=_blank>什么是RSS？</a>
+还有CNBlog的 http://www.cnblog.org/blog/archives/2002_10_20_cnblog_archive.html#83274205 什么是RSS？</a>
 
 *****
 **郑海山** 在 *2003-05-30 16:00:56* 说: thx http://digitip.net
 
 *****
-**匿名** 在 *2003-05-30 15:47:15* 说: <p>我就是<a href="http://aliweekly.nease.net">Aliweekly</a>里的张睃武了。呵呵，我根本不懂什么是blog，不看你的文章，我真不知道我是个blogger。我只是看到有人自己写文章，竟然命名叫什么什么weekly，我也学样子。</p>
+**匿名** 在 *2003-05-30 15:47:15* 说: <p>我就是 http://aliweekly.nease.net Aliweekly 里的张睃武了。呵呵，我根本不懂什么是blog，不看你的文章，我真不知道我是个blogger。我只是看到有人自己写文章，竟然命名叫什么什么weekly，我也学样子。</p>
 <p>至于手工编码：是因为反正我写得又不多，而且我是xhtml标准的狂热支持者，新标准支持的软件少，所以都是手工编码的。</p>
 <p>使用自动化的blogger软件似乎需要服务器端的软件支持，而现在服务器租用真有点贵。</p>
 <p>我还是手动添加他人的评论吧。欢迎大家评论我。不过RDF Site Summary需要服务器端软件吗？如果不需要我也想用。我自己的aliweekly本来就是xml编码的。</p>

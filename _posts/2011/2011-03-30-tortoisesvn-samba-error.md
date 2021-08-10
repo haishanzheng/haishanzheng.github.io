@@ -26,13 +26,13 @@ After upgrading to TortoiseSVN 1.5.x or later, you get a lot of "Access denied" 
 Some users reported that the problem went away after they upgraded SAMBA to the latest version. If that does not help or you can't upgrade, allow readonly files to be deleted in the SAMBA config file:
 
 [global]
-<a href="http://us1.samba.org/samba/docs/man/manpages-3/smb.conf.5.html#DELETEREADONLY">delete readonly</a> = yes
+http://us1.samba.org/samba/docs/man/manpages-3/smb.conf.5.html#DELETEREADONLY delete readonly= yes
 
 For older versions, try:
 
 [global]
 create mask = 0644
-<a href="http://us1.samba.org/samba/docs/man/manpages-3/smb.conf.5.html#FORCECREATEMODE">force create mode</a> = 0600
+http://us1.samba.org/samba/docs/man/manpages-3/smb.conf.5.html#FORCECREATEMODE force create mode = 0600
 security mask = 0555
 force security mode = 0600
 
@@ -40,7 +40,7 @@ The information we have received suggests that the main problem is fixed in SAMB
 
 &nbsp;
 
-源文档 &lt;<a href="http://tortoisesvn.tigris.org/faq.html">http://tortoisesvn.tigris.org/faq.html</a>&gt;
+源文档 &lt;http://tortoisesvn.tigris.org/faq.html http://tortoisesvn.tigris.org/faq.html &gt;
 
 &nbsp;
 

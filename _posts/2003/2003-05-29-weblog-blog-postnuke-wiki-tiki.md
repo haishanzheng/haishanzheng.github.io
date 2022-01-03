@@ -62,17 +62,6 @@ tiki，这个在sourceforge http://www.sourceforge.net 上有很多关于tiki的
 
 
 *****
-**匿名** 在 *2004-12-21 11:49:51* 说:
-www.postnuke.cn 已经被postnuke指定为中文支持站点。
-
-相关下载及支持请访问本站点。
-
-Leonard Neo
-
-Chinese Postnuke Development Director
-http://www.postnuke.cn
-
-*****
 **郑海山** 在 *2004-04-05 09:24:27* 说: 咳咳。。。baidu的不算，baidu我很多都排在前面，前几个星期查询blog排第3。。。让我感觉有点对不起真正想查blog的人哈。
 
 *****

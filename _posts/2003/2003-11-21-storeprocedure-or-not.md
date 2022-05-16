@@ -19,10 +19,10 @@ date:   2003-11-21 20:43:33 +0800
 
 Rob Howard 反击：Continued http://weblogs.asp.net/rhoward/posts/38446.aspx   
 
-其他人：Why stored procudures can be evil?  http://mehranikoo.net/mysite/posts/212.aspx   
-Stored Procedures versus Dynamic SQL - the old debate...Frans Bouma's take... http://www.mostlylucid.co.uk/posts/622.aspx   
-Stored procedures vs Dynamic SQL http://objectsharp.com/blogs/bruce/posts/201.aspx   
-Stored Procedures or not?  http://todotnet.com/posts/197.aspx   
+其他人：Why stored procudures can be evil?  
+Stored Procedures versus Dynamic SQL - the old debate...Frans Bouma's take... 
+Stored procedures vs Dynamic SQL 
+Stored Procedures or not?  
 。。。  
 
 以前链接全部来自blog，我爱blog。。。  

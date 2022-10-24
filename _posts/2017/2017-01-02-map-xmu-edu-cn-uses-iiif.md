@@ -12,6 +12,7 @@ date:   2017-01-02 16:25:09 +0800
 ![地图](/images/2017/map-xmu-edu-cn-uses-iiif/xmu.jpg)
 
 ## 文章目录
+
 {:.no_toc}
 
 * toc
@@ -42,6 +43,7 @@ IIIF网站有服务端和客户端的实现，也就是你只要扔给服务端�
 使用fcgid在Apache2下面跑。
 
 ### 大图处理
+
 我们地图的底图是一张JPEG，由于IIPImage Server对TIFF的支持比较简单，无需再安装第三方类库，所以直接把JPEG转换成多分辨率格式的TIFF、金字塔层式TIFF http://www.digitalpreservation.gov/formats/fdd/fdd000237.shtml 。命令如下：
 
 ```sh
@@ -49,7 +51,7 @@ convert sm.jpg -compress jpeg -quality 90 -define tiff:tile-geometry=256*256 pti
 ```
 
 放到服务器即可。
-![Pyramid TIFF](/images/2017/map-xmu-edu-cn-uses-iiif/pyramidtiff.png) 
+![Pyramid TIFF](/images/2017/map-xmu-edu-cn-uses-iiif/pyramidtiff.png)
 
 ### 前端
 
@@ -58,7 +60,7 @@ Nginx做代理。leaflet和leaflet-iiif展示大图，把其他校区分校的�
 **也就是，非常少的工作量，非常少的代码，让地理信息系统支持了移动端，虽然只能看图片，聊胜于无。**
 
 完美。
-![完美](/images/2017/map-xmu-edu-cn-uses-iiif/wanmei.jpg) 
+![完美](/images/2017/map-xmu-edu-cn-uses-iiif/wanmei.jpg)
 
 完美个头。一点也不，还没有搜索，寻路，GeoJSON，Geolocation呢！我们来看看厦门大学地理信息系统的前世今生，没有未来。
 
@@ -66,7 +68,7 @@ Nginx做代理。leaflet和leaflet-iiif展示大图，把其他校区分校的�
 
 厦门大学地理信息系统始建于2010年12月，那时候Flash还如日中天，伪3D的照片确实比卫星地图效果好。
 
-![嘉庚主楼](/images/2017/map-xmu-edu-cn-uses-iiif/main.jpg) 
+![嘉庚主楼](/images/2017/map-xmu-edu-cn-uses-iiif/main.jpg)
 
 一经推出取得了很好的反响。但是，很快Flash被乔布斯干掉。移动客户端大量兴起，基于Flash的慢慢没了市场。6年下来，技术进步很快，HTML5的JavaScript框架，AR/VR，360全景，航拍，手绘地图纷纷起来。越来越落伍了。
 
@@ -76,13 +78,13 @@ Nginx做代理。leaflet和leaflet-iiif展示大图，把其他校区分校的�
 
 当然好的模式项目能够得到持续的人员和资金投入。地理信息的运维涉及到下面几块：
 
-- 技术的持续进步，平台的更新，替换Flash等，这个要写代码。
-- 底图的更新，这个需要支付经费让厂商定期勘测。 
-- 建筑物和机构数据的更新。第一次厂商帮忙导入每个建筑和机构所在地的初始数据后，理论上还需要持续有人更新这些数据。信息与网络中心作为技术部门，更新这些信息显得过于浪费，而且更新数据没有权威性，不够及时，一个新建筑起来或者机构搬了位置，从来不会去通知信息与网络中心。但是你也没有能力强迫某个业务部门来做这个更新，所以投入使用后并没有业务部门来接手，这不是他们的事。
+* 技术的持续进步，平台的更新，替换Flash等，这个要写代码。
+* 底图的更新，这个需要支付经费让厂商定期勘测。
+* 建筑物和机构数据的更新。第一次厂商帮忙导入每个建筑和机构所在地的初始数据后，理论上还需要持续有人更新这些数据。信息与网络中心作为技术部门，更新这些信息显得过于浪费，而且更新数据没有权威性，不够及时，一个新建筑起来或者机构搬了位置，从来不会去通知信息与网络中心。但是你也没有能力强迫某个业务部门来做这个更新，所以投入使用后并没有业务部门来接手，这不是他们的事。
 
 6年过去了，一张错误的地图还会导致大使馆被炸毁，导致把你导航到海里。厦门大学版图从最开始的思明校区已经拓展到三个校区一个分校（当然很多游客还只认本部思明校区）。现在的厦门大学思明校区去翔安校区需要经过一条海底隧道，去漳州校区需要坐船，去马来西亚分校需要坐飞机。
 
-![校区](/images/2017/map-xmu-edu-cn-uses-iiif/xiaoqu.jpg) 
+![校区](/images/2017/map-xmu-edu-cn-uses-iiif/xiaoqu.jpg)
 
 然而她还是如同你几年前第一次遇到的那样，美，么？
 

@@ -23,6 +23,7 @@ source ~/.bashrc
 
 ```sh
 gem install jekyll bundler
+bundle add webrick
 ```
 
 ## Preview

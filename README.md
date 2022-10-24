@@ -33,3 +33,5 @@ http://127.0.0.1:6940
     bundle update
 
 ## TODO
+
+- /_posts/2020/2020-03-11-moodle-server-clustering-automatic-deployments.md mermaid

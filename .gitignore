@@ -1,6 +1,3 @@
 _site
-.sass-cache
 .jekyll-metadata
-/*.log
-/.vagrant
 /draft

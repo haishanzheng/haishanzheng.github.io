@@ -16,13 +16,13 @@ blog，从技术上讲，就是把一篇篇围绕某个特定主题的有标题�
 
 以上是我的一些小见解，关于博客的更多内容，可以去查看
 
-中国最有名的博客方兴东的博客中国 http://www.blogchina.com/ 
+中国最有名的博客方兴东的博客中国 http://www.blogchina.com/
 
 国外的bolgger http://www.blogger.com ，如果不嫌弃人家速度慢，可以在这里申请一个，开始自己的博客生涯。。。  
 号称中国最大的IT写作社区：斗牛士 http://donews.com 。当然，这个网站不是以blog自居，不过这种模式就是blog了。  
- 中文Blog心得集 http://www.cnblog.org/blog/   
+ 中文Blog心得集 http://www.cnblog.org/blog/
 
-wiki，一种多人协作的写作工具，跟blog差不多的东西，可能比blog历史还久。关于wiki，可以看这个网址：WikiWikiWeb http://c2.com/cgi/wiki?WikiWikiWeb   
+wiki，一种多人协作的写作工具，跟blog差不多的东西，可能比blog历史还久。关于wiki，可以看这个网址：WikiWikiWeb http://c2.com/cgi/wiki?WikiWikiWeb
 关于wiki与blog的区别，BizBeez有一个非常经典的文章，点击这里 http://www.bizbeez.com/index.php?cat=7 。  
 他说：  
 blog注重的是个人的思想（不管多么不成熟，多么地匪夷所思），个性化是blog的最重要特色。  
@@ -107,13 +107,21 @@ Not decided which one is better yet.
 **郑海山** 在 *2003-05-30 16:00:56* 说: thx http://digitip.net
 
 *****
-**匿名** 在 *2003-05-30 15:47:15* 说: <p>我就是 http://aliweekly.nease.net Aliweekly 里的张睃武了。呵呵，我根本不懂什么是blog，不看你的文章，我真不知道我是个blogger。我只是看到有人自己写文章，竟然命名叫什么什么weekly，我也学样子。</p>
-<p>至于手工编码：是因为反正我写得又不多，而且我是xhtml标准的狂热支持者，新标准支持的软件少，所以都是手工编码的。</p>
-<p>使用自动化的blogger软件似乎需要服务器端的软件支持，而现在服务器租用真有点贵。</p>
-<p>我还是手动添加他人的评论吧。欢迎大家评论我。不过RDF Site Summary需要服务器端软件吗？如果不需要我也想用。我自己的aliweekly本来就是xml编码的。</p>
-<p>至于那个hidden的p标签：因为我放到上面以后发现没有人写评论给我，所以标为hidden了。看了这文章，我决定支持blog，所以现在改为显示出来。</p>
-<p>我今天正好看到了很多新术语，blog之外还看到一个Journalism，不知道是什么东西，也不知道我是不是Journalism。</p>
-<p>看了郑兄的评论，我决定更新aliweekly。现在已经更新了。</p>
+**匿名** 在 *2003-05-30 15:47:15* 说: 
+
+我就是 http://aliweekly.nease.net Aliweekly 里的张睃武了。呵呵，我根本不懂什么是blog，不看你的文章，我真不知道我是个blogger。我只是看到有人自己写文章，竟然命名叫什么什么weekly，我也学样子。
+
+至于手工编码：是因为反正我写得又不多，而且我是xhtml标准的狂热支持者，新标准支持的软件少，所以都是手工编码的。
+
+使用自动化的blogger软件似乎需要服务器端的软件支持，而现在服务器租用真有点贵。
+
+我还是手动添加他人的评论吧。欢迎大家评论我。不过RDF Site Summary需要服务器端软件吗？如果不需要我也想用。我自己的aliweekly本来就是xml编码的。
+
+至于那个hidden的p标签：因为我放到上面以后发现没有人写评论给我，所以标为hidden了。看了这文章，我决定支持blog，所以现在改为显示出来。
+
+我今天正好看到了很多新术语，blog之外还看到一个Journalism，不知道是什么东西，也不知道我是不是Journalism。
+
+看了郑兄的评论，我决定更新aliweekly。现在已经更新了。
 
 *****
 **匿名** 在 *2003-05-30 14:02:14* 说: “个人信息交换应用”(http://digitip.net)创新性的实现了基于网页的个人信息交换。使用这项应用，注册登记用户在自己的网站或blog页面增加相应的代码，可以生成个人信息交换界面，在有digitip.net用户浏览该页面的时候，可以用只读帐号和密码访问交换界面，读取并选择是否与该网页所代表的用户做信息交换。交换是双向对等的，访问者与被访问者都可以获取对方相同格式的信息，访问者与被访问者都可以通过邮件接收或登陆digitip.net查看对方信息。该服务使网页具有了更多的交互性，为个人信息交流提供了极大的便利。

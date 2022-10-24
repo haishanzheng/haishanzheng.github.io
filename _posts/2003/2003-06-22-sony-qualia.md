@@ -14,5 +14,5 @@ QUALIA 016，2m CCD的DC，价格3万。
 
 这是DC图片，小得惊人，不过附件也多得要命。  
 ![](/images/2011/digital/016.jpg)  
-中关村在线的极品！25000元的Sony数码相机 http://digital.zol.com.cn/2003/0612/62746.shtml   
+中关村在线的极品！25000元的Sony数码相机 http://digital.zol.com.cn/2003/0612/62746.shtml
 

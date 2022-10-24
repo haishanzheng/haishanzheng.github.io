@@ -41,7 +41,8 @@ Moodle主要可提供上传课件，布置作业和论坛交流，类似的平�
 
 最终的架构图如下：
 
-```mermaid
+<!-- markdownlint-disable-next-line MD033 -->
+<div class="mermaid">
 graph TD;
     db1[(Database)]
     nfs[(NFS)]
@@ -73,16 +74,17 @@ graph TD;
         redissc
         rediss
     end
-```
+</div>
 
-```mermaid
+<!-- markdownlint-disable-next-line MD033 -->
+<div class="mermaid">
 graph TD;
     subgraph Log Center
         Filebeat --> Elasticsearch
         Metricbeat --> Elasticsearch
         Elasticsearch --> Kibana
     end
-```
+</div>
 
 基本上就是，你准备9台Ubuntu 18.04服务器，Git Clone下来代码，配置一下自定义的变量，跑一个命令，就自动部署好以上所有开源软件并做好所有安全加固和性能调优。并且你有一个日志中心和性能仪表盘。
 
@@ -114,7 +116,8 @@ Apache2配置加固，禁用不必要的模块和配置，安装Moodle需要的P
 
 由于经过了多个转发，所以最终的PHP获取IP地址就存在问题，因为我们前面起了CDN，再到Nginx，再到Apache，最终Moodle的PHP代码获取客户端IP地址并记录。而Nginx和Apache的Log也需要记录真实客户端IP地址，所以做了以下设置：
 
-```mermaid
+<!-- markdownlint-disable-next-line MD033 -->
+<div class="mermaid">
 sequenceDiagram
     autonumber
 
@@ -142,7 +145,7 @@ sequenceDiagram
     deactivate Apache
     Moodle->>Moodle: getremoteaddrconf获得IP地址
     Moodle->>-Moodle: 记录日志，写入敏感操作记录
-```
+</div>
 
 注意：Moodle代码使用getremoteaddrconf配置获取客户端IP地址，获取的顺序为HTTP_CLIENT_IP, HTTP_X_FORWARDED_FOR, REMOTE_ADDR，这里有一个坑，HTTP_CLIENT_IP实际上未在HTTP正式协议中出现过，所以反向代理一般很少处理这个字段，所以如果Moodle默认从HTTP_CLIENT_IP这里获取客户端IP地址，而且Nginx或者Apache没有对其进行重置的话，客户端IP很容易被伪造。所以一个解决方法是在Nginx或者Apache里去掉这个头部，或者将Moodle getremoteaddrconf顺序改为HTTP_X_FORWARDED_FOR, REMOTE_ADDR。
 
@@ -150,7 +153,8 @@ sequenceDiagram
 
 分布式部署后，从用户上传文件到最终写入NFS磁盘，文件上传的大小限制在多个地方存在，比如
 
-```mermaid
+<!-- markdownlint-disable-next-line MD033 -->
+<div class="mermaid">
 sequenceDiagram
     participant User
     participant CDN
@@ -190,7 +194,7 @@ sequenceDiagram
     Note over Moodle: 检查课程限制
     Moodle-->Moodle: ;
 
-```
+</div>
 
 
 如果遇到上传限制，一定要定位出是哪个地方限制并做相应修改。
@@ -209,11 +213,9 @@ Moodle的Log非常得详细，涵盖了用户在Moodle平台的所有操作，�
 
 Nginx配置：
 
-```conf
     if ( $remote_addr ~* 我的IP ) {
         proxy_pass http://Hserver;
     }
-```
 
 ## 测试环境同步
 
@@ -256,3 +258,7 @@ Nginx配置：
 ### 图 Redis2
 
 ![](/images/2020/moodle/redis2.jpg)
+
+
+<!-- markdownlint-disable-next-line MD033 -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>

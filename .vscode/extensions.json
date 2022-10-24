@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "yzhang.markdown-all-in-one",
-        "DavidAnson.vscode-markdownlint"
+        "davidanson.vscode-markdownlint",
+        "Pivotal.vscode-manifest-yaml"
     ]
 }

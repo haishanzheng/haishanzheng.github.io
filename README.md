@@ -8,29 +8,37 @@
 
 ## jekyll local setup
 
-    vagrant up
+from https://jekyllrb.com/docs/installation/ubuntu/
 
-    sudo apt install ruby
+```sh
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
 
-    sudo apt install ruby-dev
-    sudo apt install build-essential
-    sudo apt install zlib1g-dev
+```sh
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
 
-    sudo gem install bundler
-    bundle install
+```sh
+gem install jekyll bundler
+```
 
 ## Preview
 
-    cd /vagrant/
-    ./startdebug.sh
-    bundle exec jekyll serve --incremental --watch --force_polling
+```sh
+./startdebug.sh
+```
 
-http://127.0.0.1:6940
+http://127.0.0.1:4000
 
 ## Update
 
-    sudo gem update
-    bundle update
+```sh
+gem update
+bundle update
+```
 
 ## TODO
 

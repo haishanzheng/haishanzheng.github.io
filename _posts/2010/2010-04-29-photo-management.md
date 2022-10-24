@@ -3,7 +3,7 @@ title:  "有了相机你还需要：使用Picasa管理照片，使用数码相�
 date:   2010-04-29 11:32:38 +0800
 ---
 
-##前言
+## 前言
 
 
 
@@ -11,7 +11,7 @@ date:   2010-04-29 11:32:38 +0800
 
 
 
-##照片管理软件选择
+## 照片管理软件选择
 
 
 
@@ -21,14 +21,14 @@ date:   2010-04-29 11:32:38 +0800
 
 首先小比较一下。
 
-  * picasa界面美观，平铺的文件夹切换效果非常cool。而且略缩图显示也很漂亮。acdsee pro界面黑色调为主，中规中矩，显示信息非常齐全。文件，EXIF，IPTC，XMP所有信息都很齐全。
-  * picasa地理标志结合google earth，可以自己编辑。acdsee可以显示gps数值，不知道是否可以调用地图来显示。如果我说不知道，那基本上可能就是不能。
-  * picasa有头像检测功能，可以按头像分类，这样子可以方便查找和统计。比比看你们家谁最爱拍照片。acdsee pro没有。如果以前没有整理过头像识别，那整理一遍还是蛮累的。
-  * acdsee pro搜索整理功能异常强大，一张照片你至少有category，rating（支持5星，picasa只有星标和非星标），tag（checkbox，跟picasa星标一样），keywords等，而且可以save search，所以用acdsee可以把照片管得死死的。picasa相对较弱。
-  * acdsee pro照片后期修饰功能异常强大，picasa一般。
-  * 保存整理信息的方案2者有较大不同，各有优缺点。picasa会把你给照片的命名和tag信息直接写入照片，然后在各个照片目录的.picasa.ini内写IPTC不支持的比如星标，头像等信息。头像和相册存放在系统目录。提高浏览速度的略缩图，star cache也都放在系统目录。可以说是一团糟，既有修改原始照片，又有自己的数据库。如果你有情结，你可以考虑使用acdsee pro，acdsee不会去修改原始图片，他有独立的数据库，而且数据库支持导入导出。他也支持把数据库信息写入到图片，需要点击一个菜单。保存方案这个功能非常关键，因为我们通常不止1台电脑，我们要在电脑之间共享图片和图片信息，接下来会讲如何做到多台电脑同步。
-  * picasa和acdsee pro之间可以共享数据的是IPTC，不过acdsee pro把picasa的IPTC信息获取后写入XMP，就不再理会IPTC数据了。所以如果你在picasa修改了数据，在acdsee下打开会发现无法同步过来。
-  * picasa web相册功能较强，部分地区有可能被盾而无法使用，好可惜。
+* picasa界面美观，平铺的文件夹切换效果非常cool。而且略缩图显示也很漂亮。acdsee pro界面黑色调为主，中规中矩，显示信息非常齐全。文件，EXIF，IPTC，XMP所有信息都很齐全。
+* picasa地理标志结合google earth，可以自己编辑。acdsee可以显示gps数值，不知道是否可以调用地图来显示。如果我说不知道，那基本上可能就是不能。
+* picasa有头像检测功能，可以按头像分类，这样子可以方便查找和统计。比比看你们家谁最爱拍照片。acdsee pro没有。如果以前没有整理过头像识别，那整理一遍还是蛮累的。
+* acdsee pro搜索整理功能异常强大，一张照片你至少有category，rating（支持5星，picasa只有星标和非星标），tag（checkbox，跟picasa星标一样），keywords等，而且可以save search，所以用acdsee可以把照片管得死死的。picasa相对较弱。
+* acdsee pro照片后期修饰功能异常强大，picasa一般。
+* 保存整理信息的方案2者有较大不同，各有优缺点。picasa会把你给照片的命名和tag信息直接写入照片，然后在各个照片目录的.picasa.ini内写IPTC不支持的比如星标，头像等信息。头像和相册存放在系统目录。提高浏览速度的略缩图，star cache也都放在系统目录。可以说是一团糟，既有修改原始照片，又有自己的数据库。如果你有情结，你可以考虑使用acdsee pro，acdsee不会去修改原始图片，他有独立的数据库，而且数据库支持导入导出。他也支持把数据库信息写入到图片，需要点击一个菜单。保存方案这个功能非常关键，因为我们通常不止1台电脑，我们要在电脑之间共享图片和图片信息，接下来会讲如何做到多台电脑同步。
+* picasa和acdsee pro之间可以共享数据的是IPTC，不过acdsee pro把picasa的IPTC信息获取后写入XMP，就不再理会IPTC数据了。所以如果你在picasa修改了数据，在acdsee下打开会发现无法同步过来。
+* picasa web相册功能较强，部分地区有可能被盾而无法使用，好可惜。
 
 ![](/images/2011/photomanagement/picasa_156339_folder_list.gif)
 
@@ -40,7 +40,7 @@ date:   2010-04-29 11:32:38 +0800
 
 
 
-##如何在不同电脑之间同步照片
+## 如何在不同电脑之间同步照片
 
 
 
@@ -107,7 +107,7 @@ rsync -vzrt --progress --delete /cygdrive/D/Photos/ photo@xxx.xxx.xxx.xxx::photo
 
 
 
-##关于视频
+## 关于视频
 
 
 
@@ -115,7 +115,7 @@ rsync -vzrt --progress --delete /cygdrive/D/Photos/ photo@xxx.xxx.xxx.xxx::photo
 
 
 
-##打印和数码相框
+## 打印和数码相框
 
 
 
@@ -125,16 +125,16 @@ rsync -vzrt --progress --delete /cygdrive/D/Photos/ photo@xxx.xxx.xxx.xxx::photo
 
 ![](/images/2011/photomanagement/t2-abcxbldxxxxxxxx_61179837.jpg)
 
-##延伸阅读
+## 延伸阅读
 
 
 
-  * http://picasa.google.com/support/bin/static.py?page=guide.cs&guide=16027 Picasa 3.6 使用入门指南
-  * http://en.wikipedia.org/wiki/Extensible_Metadata_Platform The Adobe Extensible Metadata Platform (XMP)
-  * http://www.itefix.no/cwrsync/ cwrsync - Rsync for Windows
-  * http://www.reelseo.com/basics-web-video-file-formats-video-containers/ The Basics of Web Video File Formats and Video Containers
-  * http://www.sonystyle.com.cn/products/dpf/index.htm sony 数码相框
-  * http://yxp.163.com/ 网易印像派
+* http://picasa.google.com/support/bin/static.py?page=guide.cs&guide=16027 Picasa 3.6 使用入门指南
+* http://en.wikipedia.org/wiki/Extensible_Metadata_Platform The Adobe Extensible Metadata Platform (XMP)
+* http://www.itefix.no/cwrsync/ cwrsync - Rsync for Windows
+* http://www.reelseo.com/basics-web-video-file-formats-video-containers/ The Basics of Web Video File Formats and Video Containers
+* http://www.sonystyle.com.cn/products/dpf/index.htm sony 数码相框
+* http://yxp.163.com/ 网易印像派
 
 ## 评论
 

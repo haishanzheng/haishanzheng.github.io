@@ -8,8 +8,11 @@ TortoiseSVN是一个非常好用的svn GUI客户端，利用TortoiseSVN检查本
 &nbsp;
 
 然而在某个条件下，还有可能导致另外一个更严重的错误。每次commit后会提示无法移动某些文件出错，特别是有新add文件上去的时候。通过研究这些文件。
-<p lang="en-US">ls -lah</p>
+
+```sh
+ls -lah
 -r-xr-x--- 1 www-data www-data 192 2011-03-30 09:58 all-wcprops
+```
 
 发现在.svn目录里面的svn控制文件，权限会变成只读，导致了无法对这些控制文件移动或者删除，使得svn无法正常工作。这时可以删除出错的目录，并且使用TortoiseSVN进行clean up。但是每次commit都会不定期出现这个错误。
 

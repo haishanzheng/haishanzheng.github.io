@@ -9,11 +9,11 @@ Thus spake the master programmer:
 
 ``After three days without programming, life becomes meaningless.''
 
-from The Tao Of Programming http://www.canonical.org/~kragen/tao-of-programming.html   
+from The Tao Of Programming http://www.canonical.org/~kragen/tao-of-programming.html
 
 The Zen of Programming
 
 Computer Parables
 
-Books by Geoffrey James http://www.geoffreyjames.net/   
+Books by Geoffrey James http://www.geoffreyjames.net/
 

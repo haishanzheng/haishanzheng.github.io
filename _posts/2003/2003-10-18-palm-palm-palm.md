@@ -52,7 +52,7 @@ DA
 ## 评论
 
 *****
-**匿名** 在 *2003-11-30 11:56:04* 说: clie 自带FLASH PLAYER 
+**匿名** 在 *2003-11-30 11:56:04* 说: clie 自带FLASH PLAYER
 
 *****
 **郑海山** 在 *2003-10-19 13:12:17* 说: os5的比如NX70V有flash player。
@@ -62,6 +62,6 @@ DA
 所以不考虑买PALM
 
 s22
-www.flashanywhere.net 
+www.flashanywhere.net
 
 

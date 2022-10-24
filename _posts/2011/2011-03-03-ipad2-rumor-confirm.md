@@ -3,11 +3,11 @@ title:  "ipad2，传闻是否靠谱，对比ipad2发布前后消息"
 date:   2011-03-03 10:58:09 +0800
 ---
 
-由于以前看lost留下的毛病，在lost剧终季，我每次都会上lostpedia看剧透，流程一般是，预告片看一遍，英文剧透读一遍，出来后没字幕看一遍，有字幕再看一遍，最后再去剧透对true或者false，很幸运的是，lostpedia很靠谱，大部分都是true。但是在ipad2上媒体就没那么幸运了。 ![voila_capture35](/images/2011/ipad2/voila_capture35.png)](/images/2011/ipad2/voila_capture35.png) 首先我们来看发布之前我收集的链接： &nbsp_place_holder; [http://www.pcbeta.com/viewnews-20480.html  http://www.pcbeta.com/viewnews-20480.html 苹果iPad2 3月2日见新品或降价10%；更轻薄；支持数字钱包 http://bbs.appshare.cn/viewthread.php?tid=1860&extra=  http://bbs.appshare.cn/viewthread.php?tid=1860&extra= 苹果iPad 2发布倒计时 相关消息汇总 http://pad.zol.com.cn/218/2186912_all.html#p2186912  http://pad.zol.com.cn/218/2186912_all.html#p2186912 答案明日揭晓 苹果iPad 2的九大猜想 &nbsp_place_holder; 接着再来看发布后的消息 &nbsp_place_holder; http://www.ifanr.com/35448  http://www.ifanr.com/35448 王者归来——iPad 2 发布会小结 http://tech.sina.com.cn/n/2011-03-03/06405239245.shtml  http://tech.sina.com.cn/n/2011-03-03/06405239245.shtml 更快更轻更薄 苹果iPad 2平板八大提升 
+由于以前看lost留下的毛病，在lost剧终季，我每次都会上lostpedia看剧透，流程一般是，预告片看一遍，英文剧透读一遍，出来后没字幕看一遍，有字幕再看一遍，最后再去剧透对true或者false，很幸运的是，lostpedia很靠谱，大部分都是true。但是在ipad2上媒体就没那么幸运了。 ![voila_capture35](/images/2011/ipad2/voila_capture35.png)](/images/2011/ipad2/voila_capture35.png) 首先我们来看发布之前我收集的链接： &nbsp_place_holder; [http://www.pcbeta.com/viewnews-20480.html  http://www.pcbeta.com/viewnews-20480.html 苹果iPad2 3月2日见新品或降价10%；更轻薄；支持数字钱包 http://bbs.appshare.cn/viewthread.php?tid=1860&extra=  http://bbs.appshare.cn/viewthread.php?tid=1860&extra= 苹果iPad 2发布倒计时 相关消息汇总 http://pad.zol.com.cn/218/2186912_all.html#p2186912  http://pad.zol.com.cn/218/2186912_all.html#p2186912 答案明日揭晓 苹果iPad 2的九大猜想 &nbsp_place_holder; 接着再来看发布后的消息 &nbsp_place_holder; http://www.ifanr.com/35448  http://www.ifanr.com/35448 王者归来——iPad 2 发布会小结 http://tech.sina.com.cn/n/2011-03-03/06405239245.shtml  http://tech.sina.com.cn/n/2011-03-03/06405239245.shtml 更快更轻更薄 苹果iPad 2平板八大提升
 
 &nbsp_place_holder;
 
-我这里不得不插一句，sina编辑可能把标题写错了，应该是 “更快更轻更薄 苹果iPad 2平板八小提升”，我正要去信指出。 &nbsp_place_holder; 在没有了预期**Retina高清屏幕、Flash、SD卡、USB接口，NFC**的ipad2，我很失望，（你要求太高了！！！！！）大家都很失望，但是也可以看出所有人对apple的期望值有多高。归根到底ipad2只是过渡产品。我把以上几个网页全部汇总了，对比后我发现，false有11个。 &nbsp_place_holder; 以上3个网页不靠谱的（时间往前拉还有更不靠谱的）： 
+我这里不得不插一句，sina编辑可能把标题写错了，应该是 “更快更轻更薄 苹果iPad 2平板八小提升”，我正要去信指出。 &nbsp_place_holder; 在没有了预期**Retina高清屏幕、Flash、SD卡、USB接口，NFC**的ipad2，我很失望，（你要求太高了！！！！！）大家都很失望，但是也可以看出所有人对apple的期望值有多高。归根到底ipad2只是过渡产品。我把以上几个网页全部汇总了，对比后我发现，false有11个。 &nbsp_place_holder; 以上3个网页不靠谱的（时间往前拉还有更不靠谱的）：
 
 1、营销副总裁代替乔布斯登台
 
@@ -33,7 +33,7 @@ iPad 2有可能命名为iPad 3GS
 
 &nbsp_place_holder;
 
-![ipad2hands9ssssss](/images/2011/ipad2/ipad2hands9ssssss.jpg) ![voila_capture36](/images/2011/ipad2/voila_capture36.png) ![1299117708805](/images/2011/ipad2/1299117708805.png) ipad的改进 
+![ipad2hands9ssssss](/images/2011/ipad2/ipad2hands9ssssss.jpg) ![voila_capture36](/images/2011/ipad2/voila_capture36.png) ![1299117708805](/images/2011/ipad2/1299117708805.png) ipad的改进
 
 1、采用A5双核处理器，相对A4处理器性能提升2倍，显示芯片性能提升9倍，功耗不变。
 

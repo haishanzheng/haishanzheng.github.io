@@ -23,11 +23,13 @@ TRUNCATE TABLE也可以清除表内所有数据，速度比DELETE FROM更快，�
 
 以下解决方法只在sqk2k5有效，2k请自行查找系统表位置。  
 
+```sql
 IF EXISTS (SELECT * FROM sys.identity_columns WHERE last_value IS NULL AND name = 'HaishionId')  
 DBCC CHECKIDENT (tb_Haishion, RESEED, 1)  
 ELSE  
-DBCC CHECKIDENT (tb_Haishion, RESEED, 0)   
+DBCC CHECKIDENT (tb_Haishion, RESEED, 0)
 GO  
+```
 
 上面的代码只依赖表的主关键字段，这样子reseed后你插入后得到的ID一直为1。  
 

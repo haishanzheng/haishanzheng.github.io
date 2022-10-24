@@ -32,7 +32,7 @@ date:   2018-07-01 15:28:09 +0800
 对于形如example@xmu.edu.cn的邮件地址来说，宣告接收邮件的服务器的IP地址设置在xmu.edu.cn的MX DNS RR上。
 
 - xmu.edu.cn的A记录为了SEO，一般是建议跟www.xmu.edu.cn一致，并做301跳转。原先我们为了用户方便直接指向邮件的A记录，但是后来一般浏览器会自动前面给你加www，然而为了用户习惯一直不敢变更直到最近。
-- SPF记录。SPF如果要写得完美一点，可以考虑下面场景：如果你老师和学生用不同的域，比如xmu.edu.cn和stu.xmu.edu.cn，则这2个域的SPF都include spf.xmu.edu.cn（类似引用一个变量），在spf.xmu.edu.cn里面才真正允许发信服务器的A/AAAA记录。所以bind9写法就是 
+- SPF记录。SPF如果要写得完美一点，可以考虑下面场景：如果你老师和学生用不同的域，比如xmu.edu.cn和stu.xmu.edu.cn，则这2个域的SPF都include spf.xmu.edu.cn（类似引用一个变量），在spf.xmu.edu.cn里面才真正允许发信服务器的A/AAAA记录。所以bind9写法就是
 
         @   TXT "v=spf1 include:spf.xmu.edu.cn -all"
         stu TXT "v=spf1 include:spf.xmu.edu.cn -all"

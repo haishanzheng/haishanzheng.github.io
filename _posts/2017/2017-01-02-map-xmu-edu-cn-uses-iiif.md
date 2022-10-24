@@ -9,7 +9,7 @@ date:   2017-01-02 16:25:09 +0800
 
 所以抢救的结果就是，原先你用移动客户端啥都看不到，现在至少你可以看图片了，这个图片可以放大缩小，按需下载显示的区域减少流量，仅此而已。
 
-![地图](/images/2017/map-xmu-edu-cn-uses-iiif/xmu.jpg) 
+![地图](/images/2017/map-xmu-edu-cn-uses-iiif/xmu.jpg)
 
 ## 文章目录
 {:.no_toc}
@@ -44,7 +44,9 @@ IIIF网站有服务端和客户端的实现，也就是你只要扔给服务端�
 ### 大图处理
 我们地图的底图是一张JPEG，由于IIPImage Server对TIFF的支持比较简单，无需再安装第三方类库，所以直接把JPEG转换成多分辨率格式的TIFF、金字塔层式TIFF http://www.digitalpreservation.gov/formats/fdd/fdd000237.shtml 。命令如下：
 
-	convert sm.jpg -compress jpeg -quality 90 -define tiff:tile-geometry=256*256 ptif:sm.tif
+```sh
+convert sm.jpg -compress jpeg -quality 90 -define tiff:tile-geometry=256*256 ptif:sm.tif
+```
 
 放到服务器即可。
 ![Pyramid TIFF](/images/2017/map-xmu-edu-cn-uses-iiif/pyramidtiff.png) 

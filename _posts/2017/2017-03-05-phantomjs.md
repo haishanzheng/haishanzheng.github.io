@@ -128,19 +128,21 @@ ReferenceError: Strict mode forbids implicit creation of global property 'pageWi
 
 也就是，假设你有一句
 
-    console.log('i am %s.', 'dog');
+```javascript
+console.log('i am %s.', 'dog');
+```
 
 在Chrome、Firefox最新版都会输出
 
-    i am dog
+i am dog
 
 而包管理器下载的PhantomJS输出是
 
-    i am %s
+i am %s
 
 官网下载的输出是
 
-    i am %s dog
+i am %s dog
 
 也就是包管理器只看到了第一个obj1，后面的参数全部被忽略，官网下载的看到了所有的可变参数，但是不支持substitution替换。
 如果你知道为什么，请告诉我。

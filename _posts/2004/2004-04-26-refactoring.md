@@ -7,17 +7,17 @@ date:   2004-04-26 22:10:46 +0800
 
 你觉得这个  
 
-{% highlight html %}
+```html
 <form action=update.asp method=post><br />
 <input type=hidden name=Action value=UPDATE><br />
 <input type=text name=Nickname value=<%=Rs("Nickname")%>><br />
 <input type=submit><br />
 </form><br />
-{% endhighlight %}
+```
 
 和这个  
 
-{% highlight html %}
+```html
 <form action=<%=Request.ServerVariables("SCRIPT_NAME")%> method=post name=form1><br />
 <input type=hidden name=Action><br />
 <input type=text name=Nickname><br />
@@ -27,26 +27,25 @@ date:   2004-04-26 22:10:46 +0800
     TextSetValue(form1.Action, "UPDATE");<br />
     TextSetValue(form1.Nickname, "<%=Rs("Nickname")%>");<br />
 </script>
-{% endhighlight %}
-
+```
 
 有区别么？  
 
 你觉得  
 
-{% highlight php %}
+```php
 Helper::ExecuteNonQuery("INSERT INTO tb_xx (xx1, xx2, xx3) VALUES ($xx1, '$xx2', '$xx3')");  
-{% endhighlight %}
+```
 
 和  
 
-{% highlight php %}
+```php
 $sqlstr = "";  
 $sqlstr .= "INSERT INTO tb_xx ";  
 $sqlstr .= "(xx1, xx2, xx3) VALUES ";  
 $sqlstr .= "($xx1, '$xx2', '$xx3')";  
 Helper::ExecuteNonQuery($sqlstr);  
-{% endhighlight %}
+```
 
 有区别么？  
 

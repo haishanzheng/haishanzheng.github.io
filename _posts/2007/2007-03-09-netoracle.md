@@ -31,7 +31,7 @@ date:   2007-03-09 21:09:45 +0800
 的连接字符串，那就要多做下面几个步骤：  
 
 在instantclient目录下建立 network\admin，然后放入 tnsnames.ora 和 sqlnet.ora (你应该知道里面填什么内容吧)，然后设置2个环境变量  
-TNS_ADMIN -> network\admin   
+TNS_ADMIN -> network\admin
 ORACLE_HOME -> instantclient  
 
 可以了。  

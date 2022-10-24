@@ -107,7 +107,7 @@ Not decided which one is better yet.
 **郑海山** 在 *2003-05-30 16:00:56* 说: thx http://digitip.net
 
 *****
-**匿名** 在 *2003-05-30 15:47:15* 说: 
+**匿名** 在 *2003-05-30 15:47:15* 说:
 
 我就是 http://aliweekly.nease.net Aliweekly 里的张睃武了。呵呵，我根本不懂什么是blog，不看你的文章，我真不知道我是个blogger。我只是看到有人自己写文章，竟然命名叫什么什么weekly，我也学样子。
 

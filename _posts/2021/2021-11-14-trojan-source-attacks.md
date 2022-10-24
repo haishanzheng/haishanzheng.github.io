@@ -124,7 +124,7 @@ Bidi attack影响大部分编程语言和代码库工具，比如这个代码，
 ''' Subtract funds from bank account then <bdi dir="rtl">''' ;return
 ```
 
-然后用浏览器打开，会看到 
+然后用浏览器打开，会看到
 
 ''' Subtract funds from bank account then return; '''
 

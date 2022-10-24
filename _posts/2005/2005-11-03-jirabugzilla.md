@@ -13,6 +13,6 @@ JIRA在问题上做了分类，问题的类型有Bug，新特性，任务，增�
 
 如果钱不是问题，忘记bugzilla吧。  
 
-JIRA - Bug Tracking, issue tracking and project management software   
+JIRA - Bug Tracking, issue tracking and project management software
 http://www.atlassian.com/software/jira/  
 

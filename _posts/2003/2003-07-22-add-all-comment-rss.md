@@ -9,18 +9,19 @@ date:   2003-07-22 18:11:37 +0800
 
 html\modules\NS-Comments\index.php  
 
+```php
 #add for display all comments  
 global $Haishion_Showallreply;  
 if ("HAISHION_SHOWALLREPLY" == $Haishion_Showallreply) {  
-$q .= " FROM $pntable[comments] WHERE 1 = 1";  
+    $q .= " FROM $pntable[comments] WHERE 1 = 1";  
 } else {  
-$q .= " FROM $pntable[comments] WHERE $column[sid]=".pnVarPrepForStore($sid)." AND $column[pid]=".pnVarPrepForStore($pid)."";  
+    $q .= " FROM $pntable[comments] WHERE $column[sid]=".pnVarPrepForStore($sid)." AND $column[pid]=".pnVarPrepForStore($pid)."";  
 }  
 #add for display all comments  
 
 #add for display all comments  
 if ("HAISHION_SHOWALLREPLY" != $Haishion_Showallreply) {  
-DisplayKids($tid, $mode, $order, $thold, $level);  
+    DisplayKids($tid, $mode, $order, $thold, $level);  
 }  
 #add for display all comments  
 
@@ -31,6 +32,7 @@ $Haishion_Showallreply = "HAISHION_SHOWALLREPLY";
 DisplayTopic($info, $sid, $pid, $tid, $mode, $order, $thold);  
 break;  
 #add for display all comments  
+```
 
 附：  
 
@@ -38,5 +40,5 @@ comments改成只有单一的回复形式，反正comments不是很多哈。
 
 改变文件  
 html\modules\NS-Comments\index.php  
-597、608 pid一直=0   
+597、608 pid一直=0
 

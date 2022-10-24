@@ -88,7 +88,7 @@ date:   2021-09-27 15:03:03 +0800
 
 你可以用一个独立的层画一些逻辑上数据的流向。
 
-### Tag 
+### Tag
 
 类似分层，多一个分组方法
 
@@ -96,7 +96,7 @@ date:   2021-09-27 15:03:03 +0800
 
 某个Page可以定义为背景页，在多个页面之间共享展示
 
-## Placeholders，一次定义，到处使用，SSOT 
+## Placeholders，一次定义，到处使用，SSOT
 
 > Placeholders are like variables - they can reference a shape’s property and replace text in a label or tooltip with the value of the named property.
 

@@ -14,34 +14,34 @@ date:   2017-03-05 19:50:12 +0800
 于是我就开始研究了。
 
 > PhantomJS is a headless WebKit scriptable with a JavaScript API. It has fast and native support for various web standards: DOM handling, CSS selector, JSON, Canvas, and SVG.
-> 
-> Programmatically capture web contents, including SVG and Canvas. Create web site screenshots with thumbnail preview. 
+>
+> Programmatically capture web contents, including SVG and Canvas. Create web site screenshots with thumbnail preview.
 
 很快写了段代码，发现就解决了。解决了。
 
-	"use strict";
+```javascript
+"use strict";
 
-	var page = require('webpage').create();
-	var system = require('system');
+var page = require('webpage').create();
+var system = require('system');
+var address = system.args[1];
+var output = system.args[2];
+var pageWidth = parseInt(system.args[3], 10);
+var pageHeight = parseInt(pageWidth * 3/4, 10);
 
-	var address = system.args[1];
-	var output = system.args[2];
-
-	var pageWidth = parseInt(system.args[3], 10);
-	var pageHeight = parseInt(pageWidth * 3/4, 10);
-	page.viewportSize = { width: pageWidth, height: pageHeight };
-
-	page.open(address, function (status) {
-	    if (status !== 'success') {
-	        console.log('Unable to load the address!');
-	        phantom.exit(1);
-	    } else {
-	        window.setTimeout(function () {
-	            page.render(output);
-	            phantom.exit();
-	        }, 200);
-	    }
-	});
+page.viewportSize = { width: pageWidth, height: pageHeight };
+page.open(address, function (status) {
+    if (status !== 'success') {
+        console.log('Unable to load the address!');
+        phantom.exit(1);
+    } else {
+        window.setTimeout(function () {
+            page.render(output);
+            phantom.exit();
+        }, 200);
+    }
+});
+```
 
 简单得令人发指。下面是PhantomJS的截图效果，非常赞。
 
@@ -60,24 +60,34 @@ date:   2017-03-05 19:50:12 +0800
 说完了，现在开始说但是了。任何事情都不是一帆风顺的，配置过程中也遇到了一些坑，分享出来。
 
 # 包管理器安装
+
 为了达到自动化部署，我一般都喜欢用包管理器安装组件，然而在我安装完Ubuntu 16.04LTS最新的PhantomJS包后，无法启动。提示错误：
 
-	QXcbConnection: Could not connect to display 
+```console
+QXcbConnection: Could not connect to display 
+```
 
 查了下，必须加个环境参数。
 
-	export QT_QPA_PLATFORM=offscreen
+```sh
+export QT_QPA_PLATFORM=offscreen
+```
 
 而官网下载的就没有这个问题。不知道为啥Ubuntu维护的包会有这个问题。
 
 # 中文支持
+
 Ubuntu自带的PhantomJS，即使再安装
 
-	sudo apt-get install xfonts-*
+```sh
+sudo apt-get install xfonts-*
+```
 
 也是无法认到中文的，原因是里面打包的Qt不知道为什么即使设置 QT_QWS_FONTDIR 也无法变更。所以必须
 
-	ln -s /usr/share/fonts/某个中文字体目录 /usr/lib/x86_64-linux-gnu/fonts
+```sh
+ln -s /usr/share/fonts/某个中文字体目录 /usr/lib/x86_64-linux-gnu/fonts
+```
 
 而官网下载的只要按以上安装xfonts-*就可以完美支持中文。
 
@@ -88,17 +98,22 @@ Ubuntu自带的PhantomJS，即使再安装
 # examples/rasterize.js
 包管理器下载的和官网下载的示例文件均有错误。GitHub上的已经修复。直接运行会提示：
 
-	ReferenceError: Strict mode forbids implicit creation of global property 'pageWidth'
+```output
+ReferenceError: Strict mode forbids implicit creation of global property 'pageWidth'
+```
 
 这个问题是由于某次修改加入
 
-	"use strict";
+```javascript
+    "use strict";
+```
 
 导致的，但是"use strict";理论上不是应该第一次就加入么。。。
 修复很简单，
 第4行加入    pageWidth, pageHeight; 定义即可
 
 # WebKit的console.log问题
+
 很奇怪的是，不知道PhantomJS打包的是什么版本的WebKit，在我调试时发现一个很奇怪的现象，至今无法解决，由于不影响使用，也懒得去研究看源代码了。
 
 这个问题是，理论上标准的console.log是支持格式化替换输出的，以下是标准的console.log的语法：
@@ -113,19 +128,19 @@ Ubuntu自带的PhantomJS，即使再安装
 
 也就是，假设你有一句
 
-	console.log('i am %s.', 'dog');
+    console.log('i am %s.', 'dog');
 
 在Chrome、Firefox最新版都会输出
 
-	i am dog
+    i am dog
 
 而包管理器下载的PhantomJS输出是
 
-	i am %s
+    i am %s
 
 官网下载的输出是
 
-	i am %s dog
+    i am %s dog
 
 也就是包管理器只看到了第一个obj1，后面的参数全部被忽略，官网下载的看到了所有的可变参数，但是不支持substitution替换。
 如果你知道为什么，请告诉我。

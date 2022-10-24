@@ -24,6 +24,7 @@ __如果要开放网上邻居端口请注意加好防火墙。使用下面方法
 
 
 ## Port proxy
+
 [Netsh commands for Interface Portproxy](https://technet.microsoft.com/en-us/library/cc731068(v=ws.10).aspx)
 
 > The Netsh Interface Portproxy commands provide a command-line tool for use in administering servers that act as proxies between IPv4 and IPv6 networks and applications. You can use these commands to establish proxy service in the following ways:
@@ -35,52 +36,73 @@ __如果要开放网上邻居端口请注意加好防火墙。使用下面方法
 1，2，3就是Windows客户端访问Windows服务端网上邻居的网络走向数据流，中间只需要开放4455自定义端口。
 
 ## 开始设置
+
 思路有了，那开始设置吧。Portproxy从Windows 2008就已经有了，所以Windows 8.1和Windows 10也是自带了。当然，也会有其他方法，包括直接VPN拨到服务器网段，通过其他代理转发等等这里不说明。使用本方法也会有副作用，包括命名管道不能再使用，某些应用（比如Acronis True Image）还是无法访问网上邻居等等。
 
 ## Windows服务端设置
+
 添加一条Portproxy规则即可
 
-	netsh interface portproxy add v4tov4 listenaddress=a.b.c.d listenport=4455 connectaddress=a.b.c.d connectport=445
+ netsh interface portproxy add v4tov4 listenaddress=a.b.c.d listenport=4455 connectaddress=a.b.c.d connectport=445
 
 ### 排错
+
 同客户端。
 
 ## Linux服务端设置
 
 ### samba改端口
+
+```sh
 	vi /etc/samba/smb.conf
+```
 
 在[global]内加入一行
 
-	smb ports = 4455
+```conf
+smb ports = 4455
+```
 
 重启smbd服务。
 
 ### 排错
+
 查看samba服务是否正常。
 
-	systemctl status smbd
-	tail /var/log/samba/log.smbd
+```sh
+systemctl status smbd
+tail /var/log/samba/log.smbd
+```
 
 查看samba是否服务起在4455端口。
 
-	lsof -i:4455
+```sh
+lsof -i:4455
+```
 
 #### 防火墙和SELinux
+
 注意打开4455端口的防火墙。如果smbd无法启动，提示监听时没有权限，可以确认下SELinux的问题。
 
 如果SELinux为开启（推荐），查看smbd可以打开的端口
 
-	semanage port -l|grep smb
+```sh
+semanage port -l|grep smb
+```
 
 增加打开4450端口：
 
-	semanage port -a -t smbd_port_t -p tcp 4450
+```sh
+semanage port -a -t smbd_port_t -p tcp 4450
+```
 
 ### 联调
+
 使用tcpdump查看是否客户端有流量过来。
 
-	tcpdump 'dst host x.y.z.z and ! dst port SSH_PORT'
+```sh
+tcpdump 'dst host x.y.z.z and ! dst port SSH_PORT'
+```
 
 ## Windows客户端设置
 
@@ -88,7 +110,9 @@ __如果要开放网上邻居端口请注意加好防火墙。使用下面方法
 
 停止server服务。
 
-	net stop server
+```console
+net stop server
+```
 
 干掉Server服务会导致一系列问题，[关于勒索病毒 Ransom:Win32.WannaCrypt 解决方案的总结说明](https://github.com/HiwebFrank/Blogs/blob/master/NetworkSecurityaboutWannaCry.md?from=timeline&isappinstalled=0)里面提到：
 
@@ -101,7 +125,10 @@ Server服务的描述：
 因为Server服务bind的地址一定是0.0.0.0，所以只能是整个干掉，会导致你无法共享文件给别人，命名管道也不能用，比如SUBST虚拟磁盘无法使用。这个在我们管理远程3389时需要服务器客户端之间对拷文件时我一般会SUBST个虚拟盘，再挂接到服务端，比直接C、D盘整个挂接过去会更安全一点。
 
 ### 禁用Server服务
-	sc config lanmanserver start=disabled
+
+```console
+sc config lanmanserver start=disabled
+```
 
 ### 开启Portproxy
 
@@ -110,18 +137,25 @@ Server服务的描述：
 
 命令：
 
-	netsh interface portproxy add v4tov4 listenaddress=d.o.g.g listenport=445 connectaddress=a.b.c.d connectport=4455
+```cmd
+netsh interface portproxy add v4tov4 listenaddress=d.o.g.g listenport=445 connectaddress=a.b.c.d connectport=4455
+```
 
 如果你网上邻居比较多，建议做个规划。我写了个脚本，放在最下面，参考。每次我只要添加一行，运行bat，自动执行以上2个步骤并且清理已经不再使用的IP和映射。
 
 ### 排错
+
 查看Portproxy设置
 
-	netsh interface portproxy show all
+```cmd
+netsh interface portproxy show all
+```
 
 查看端口是否正确起来
 
-	netstat -ano | findstr :4455
+```cmd
+netstat -ano | findstr :4455
+```
 
 抓包 Wireshark
 
@@ -129,8 +163,10 @@ Server服务的描述：
 
 
 ### 自动脚本
+
 请确认你看得懂下面脚本再自动化操作。否则请手工操作。
 
+```powershell
 {% highlight powershell linenos %}
 @echo off
 
@@ -142,12 +178,12 @@ set IPADDRESS_DEFAULT=x.y.z.z
 setlocal enabledelayedexpansion
 
 for /f "tokens=4 delims= " %%a  in ('netsh interface ipv4 dump^|find "%INTERFACE_NAME%"^|find "address"') do (
-	if "%%a" equ "address=%IPADDRESS_DEFAULT%" (
-		echo %%a is default ipaddress. Skiping delete.
-	) else (
-		echo delete ip%%a
-		netsh interface ipv4 delete address name="%INTERFACE_NAME%" %%a
-	)
+    if "%%a" equ "address=%IPADDRESS_DEFAULT%" (
+       echo %%a is default ipaddress. Skiping delete.
+    ) else (
+        echo delete ip%%a
+        netsh interface ipv4 delete address name="%INTERFACE_NAME%" %%a
+    )
 )
 
 netsh interface ipv4 add address name="%INTERFACE_NAME%" address=d.o.g.1 mask=255.255.255.0
@@ -169,7 +205,7 @@ netsh interface portproxy show all
 
 @echo on
 {% endhighlight %}
-
+```
 
 ## Linux客户端设置
 
@@ -178,6 +214,7 @@ smbclient -p 4455 //a.b.c.d/home -U DOG
 mount -t cifs //a.b.c.d/home MOUNT_POINT -o username=DOG,port=4455,password=SOME_PASSWORD
 
 ## 好了
+
 有什么问题告诉我，有什么不懂不要问我。
 
 ![](/images/2017/portproxy/brave-heart-freedom.jpg)

@@ -59,7 +59,7 @@ page.open(address, function (status) {
 
 说完了，现在开始说但是了。任何事情都不是一帆风顺的，配置过程中也遇到了一些坑，分享出来。
 
-# 包管理器安装
+## 包管理器安装
 
 为了达到自动化部署，我一般都喜欢用包管理器安装组件，然而在我安装完Ubuntu 16.04LTS最新的PhantomJS包后，无法启动。提示错误：
 
@@ -75,7 +75,7 @@ export QT_QPA_PLATFORM=offscreen
 
 而官网下载的就没有这个问题。不知道为啥Ubuntu维护的包会有这个问题。
 
-# 中文支持
+## 中文支持
 
 Ubuntu自带的PhantomJS，即使再安装
 
@@ -95,7 +95,8 @@ ln -s /usr/share/fonts/某个中文字体目录 /usr/lib/x86_64-linux-gnu/fonts
 >
 > Qt normally uses fontconfig to provide access to system fonts. If fontconfig is not available, e.g. in dedicated embedded systems where space is at a premium, Qt will fall back to using QBasicFontDatabase. In this case, Qt applications will look for fonts in Qt's lib/fonts/ directory. Qt will automatically detect prerendered fonts and TrueType fonts.
 
-# examples/rasterize.js
+## examples/rasterize.js
+
 包管理器下载的和官网下载的示例文件均有错误。GitHub上的已经修复。直接运行会提示：
 
 ```output
@@ -112,7 +113,7 @@ ReferenceError: Strict mode forbids implicit creation of global property 'pageWi
 修复很简单，
 第4行加入    pageWidth, pageHeight; 定义即可
 
-# WebKit的console.log问题
+## WebKit的console.log问题
 
 很奇怪的是，不知道PhantomJS打包的是什么版本的WebKit，在我调试时发现一个很奇怪的现象，至今无法解决，由于不影响使用，也懒得去研究看源代码了。
 
@@ -124,7 +125,7 @@ ReferenceError: Strict mode forbids implicit creation of global property 'pageWi
 >
 > msg
 >
-> A JavaScript string containing zero or more substitution strings. 
+> A JavaScript string containing zero or more substitution strings.
 
 也就是，假设你有一句
 

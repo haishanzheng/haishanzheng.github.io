@@ -45,7 +45,7 @@ __如果要开放网上邻居端口请注意加好防火墙。使用下面方法
 
  netsh interface portproxy add v4tov4 listenaddress=a.b.c.d listenport=4455 connectaddress=a.b.c.d connectport=445
 
-### 排错
+### Windows排错
 
 同客户端。
 
@@ -54,7 +54,7 @@ __如果要开放网上邻居端口请注意加好防火墙。使用下面方法
 ### samba改端口
 
 ```sh
-	vi /etc/samba/smb.conf
+vi /etc/samba/smb.conf
 ```
 
 在[global]内加入一行
@@ -65,7 +65,7 @@ smb ports = 4455
 
 重启smbd服务。
 
-### 排错
+### Linux排错
 
 查看samba服务是否正常。
 

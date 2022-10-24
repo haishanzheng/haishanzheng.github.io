@@ -41,7 +41,7 @@ Moodle主要可提供上传课件，布置作业和论坛交流，类似的平�
 
 最终的架构图如下：
 
-<div class="mermaid">
+```mermaid
 graph TD;
     db1[(Database)]
     nfs[(NFS)]
@@ -73,7 +73,7 @@ graph TD;
         redissc
         rediss
     end
-</div>
+```
 
 <div class="mermaid">
 graph TD;

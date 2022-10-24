@@ -21,12 +21,12 @@ date:   2003-09-16 12:56:49 +0800
 
 来自palmstamp.com的kendrickho  
 
-_故事办生於 2065 年, 超?公司靳治的年代. 其中?家最大的超?公司, ACME Exploration 及 OMNI Industries, 正角逐於檫?一肺罕有而珍倨的抵物, Galaxite 的?有?的??中. 费? Galaxite 的抵物, 有能把物冱分解及?送到任何地方的能量. OMNI Industries 是?力最雄厚的公司, 其?富比世上其他任何?家都要多.   
+> 故事办生於 2065 年, 超?公司靳治的年代. 其中?家最大的超?公司, ACME Exploration 及 OMNI Industries, 正角逐於檫?一肺罕有而珍倨的抵物, Galaxite 的?有?的??中. 费? Galaxite 的抵物, 有能把物冱分解及?送到任何地方的能量. OMNI Industries 是?力最雄厚的公司, 其?富比世上其他任何?家都要多.
+>
+> OMNI 在多?不同的生意, ??石市?到 Galaxite 的檫??等, 都有著??的位置. ACME Exploration 是撅胗其後的第二最大公司, ?一直致力於?取?钷位置.
+>
+> 六咛前, ACME 公司的探??前往恒星 Tau Ceti 途中, 办?了一?尚未被檫办而其中 Galaxite 含量?赜富之星球, lcarus. 收到消息後, ACME 立刻派出殖民宇宙船前往. 船上??包括 Gordon Fox, 檫?基地指?官; Jana Perez, 高?研究科?家; 其未婚夫, Andy Whitemore, 抵?操作???; Arthur Olstrom, 高?抵??行官. 船上?有?一切用以檫?的韵?及人?. 如果 ACME 的控制?的?, 她?立刻?身一?, 超越 OMNI 而成?最具?力的及富有的超?公司!
 
-OMNI 在多?不同的生意, ??石市?到 Galaxite 的檫??等, 都有著??的位置. ACME Exploration 是撅胗其後的第二最大公司, ?一直致力於?取?钷位置.   
-
-六咛前, ACME 公司的探??前往恒星 Tau Ceti 途中, 办?了一?尚未被檫办而其中 Galaxite 含量?赜富之星球, lcarus. 收到消息後, ACME 立刻派出殖民宇宙船前往. 船上??包括 Gordon Fox, 檫?基地指?官; Jana Perez, 高?研究科?家; 其未婚夫, Andy Whitemore, 抵?操作???; Arthur Olstrom, 高?抵??行官. 船上?有?一切用以檫?的韵?及人?. 如果 ACME 的控制?的?, 她?立刻?身一?, 超越 OMNI 而成?最具?力的及富有的超?公司!   
-_  
 其他链接：  
 Warfare Incorporated for Palm OS 1.0 http://www.palmgear.com/index.cfm?fuseaction=software.showsoftware&sid=5F54DEDC-56B0-4FAB-A7E68E822660C871&prodID=51765  on palmgear.com  
 Warfare Incorporated for Palm OS  http://www.handmark.com/products/detail.php?id=182  on handmark.com  

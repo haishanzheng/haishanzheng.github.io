@@ -7,7 +7,7 @@ date:   2004-03-31 17:27:18 +0800
 
 [Microsoft Money 2004 入门]({{ site.baseurl }}/2004/03/11/microsoft-money-2004.html)  
 
-[Microsoft Money 2004 入门 安装篇]({{ site.baseurl }}/2004/03/11/microsoft-money-2004-install.html)    
+[Microsoft Money 2004 入门 安装篇]({{ site.baseurl }}/2004/03/11/microsoft-money-2004-install.html)
 
 [Microsoft Money 2004 入门 帐号篇]({{ site.baseurl }}/2004/03/31/microsoft-money-2004-account.html)  
 
@@ -15,9 +15,9 @@ date:   2004-03-31 17:27:18 +0800
 
 [Microsoft Money 2004 入门 记帐篇]({{ site.baseurl }}/2004/04/10/microsoft-money-2004-bill.html)  
 
-[Microsoft Money 2004 入门 Bills & Deposits篇]({{ site.baseurl }}/2004/04/18/microsoft-money-2004-bills-deposits.html)    
+[Microsoft Money 2004 入门 Bills & Deposits篇]({{ site.baseurl }}/2004/04/18/microsoft-money-2004-bills-deposits.html)
 
-[Microsoft Money 2004 入门 Money Express篇]({{ site.baseurl }}/2004/04/18/microsoft-money-2004-money-express.html)    
+[Microsoft Money 2004 入门 Money Express篇]({{ site.baseurl }}/2004/04/18/microsoft-money-2004-money-express.html)
 
 [Microsoft Money 2004 入门 预算篇]({{ site.baseurl }}/2004/04/30/microsoft-money-2004-budget.html)  
 

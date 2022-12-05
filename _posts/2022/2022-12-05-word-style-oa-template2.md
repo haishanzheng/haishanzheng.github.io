@@ -6,9 +6,9 @@ date:   2022-12-05 11:30:01 +0800
 
 ## 为什么有新模板
 
-去年我写了 [给Excel文件点颜色](https://dog.xmu.edu.cn/2021/10/21/excel-beautify.html) ，4年前我写了[内容和格式分离，说说写论文、写文档、画框图的事](https://dog.xmu.edu.cn/2018/05/03/split-content-format.html)。年初我写了 [Word样式的使用和公文模板下载](https://dog.xmu.edu.cn/2022/01/09/word-style-oa-template.html)，后面又写了 [Word论文排版最佳实践系列-开篇](https://dog.xmu.edu.cn/2022/03/30/word-series-intro.html)，因为后面2篇访问量不高，我推测可能是我的读者专业技术的人比较多，请示报告写得少，学位论文基本上不用写了，如果用公文格式来写技术文档，对纸张会比较浪费，所以我本打算不再继续的。
+去年我写了 [给Excel文件点颜色](https://dog.xmu.edu.cn/2021/10/21/excel-beautify.html) ，4年前我写了[内容和格式分离，说说写论文、写文档、画框图的事](https://dog.xmu.edu.cn/2018/05/03/split-content-format.html)。年初我写了 [Word样式的使用和公文模板下载](https://dog.xmu.edu.cn/2022/01/09/word-style-oa-template.html)，后面又写了 [Word论文排版最佳实践系列-开篇](https://dog.xmu.edu.cn/2022/03/30/word-series-intro.html)，因为后面2篇访问量不高，我推测可能是我的访问者专业技术的人比较多，请示报告写得少，学位论文基本上不用写了，如果用公文格式来写技术文档，对纸张会比较浪费，所以我本打算不再继续的，就是主动烂尾掉。
 
-昨天有位老师找我拿公文模板，才发现可能还是有人要的，实际上我对公文模板又做了比较大的调整。
+昨天有位老师找我拿公文模板，才发现可能还是有人要的，实际上我前段时间正好对公文模板又做了比较大的调整。
 
 ## 对比新旧模板差别
 

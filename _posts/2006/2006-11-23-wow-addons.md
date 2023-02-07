@@ -10,15 +10,12 @@ date:   2006-11-23 10:35:50 +0800
 团队助手和首领模块，很容易找，一般整合插件里有。必须有。  
 
 [1.12]Decursive 1.9.8.4中文版
-http://www.thewow.cn/soft/691.html  
 所有辅助职业必须安装，必须学会设置优先级，不会的请请教你的职业队长。替换掉你整合插件的dec，这个版本支持检查有谁有安装，以后不用在频道喊说谁谁谁有没有一键了。  
 
 SpellTimer全职业法术计时器1.12版[简繁英]
-http://www.thewow.cn/soft/948.html  
 所有带dot职业必须安装，监视你放出dot的持续时间，没有了就补，rl就不用一直喊牧师痛痛痛了。猎人，ss，牧师特别需要，还有fs变羊控制==。  
 
 或者 [1.12]Natur EnemyCastBar5.3.9中文版
-http://www.thewow.cn/soft/1349.html  
 跟SpellTimer差不多，pk效果更好。  
 
 [战斗]克苏恩距离报警器C'Thun Warner 1.06  
@@ -26,14 +23,12 @@ http://wowui.duowan.com/html/11/191.html
 如果你周围有人在你10码，5码之内，会提示并显示是谁。在打mc10号，公主时效果很好，打小克所有人必须安装。  
 
 LaVendettaBossMods  
-http://www.thewow.cn/soft/28.html  
 
 比ct_bossmod好的首领计时，mt或者rl推荐安装。其他会员随便。推荐猎人和牧师安装。  
 自动给人上骷髅标记：raq3号boss taq 小克 bwl2号炸弹人，中给boss治疗的tank mc炸弹人 zg血领主凝视的人  
 老耐点名前猎人可以自动卸除武器，牧师自动无法治疗（想扣我们的分？没门！）  
 
 X-Perl UnitFrame 1.9.6官方中文版
-http://www.thewow.cn/soft/140.html  
 rl推荐安装，头像增强，附带一大堆增强的团队助手管理功能，比如检查各个会员装备，带的药，战斗中磕药的数量，用这个设置mt目标很方便。  
 
 嘲讽助手TauntBuddy  

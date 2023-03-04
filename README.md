@@ -12,6 +12,7 @@ from https://jekyllrb.com/docs/installation/ubuntu/
 
 ```sh
 sudo apt-get install ruby-full build-essential zlib1g-dev
+sudo apt-get install libffi-dev libedit-dev libssl-dev
 ```
 
 ```sh

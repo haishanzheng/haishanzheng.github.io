@@ -58,7 +58,7 @@ X-Forwarded-For: client_ip, forward_proxy1, forward_proxy2, reverse_proxy1, reve
 - 安装了4台服务器，分别安装NGINX、Apache、IIS、Tomcat
 - 我通过开关切换ngx_http_realip_module和Apache的mod_realip和Client IP Header和RemoteIpValve
 - 我观察上面Web服务器的日志记录
-- 在上面4台服务器跑在FastCGI和php-fpm模式下的的PHP
+- 在上面4台服务器跑在FastCGI和php-fpm模式下的PHP
 - 和WSGI的Python
 - 和Java
 - 和启用了django-ipware模块的Python

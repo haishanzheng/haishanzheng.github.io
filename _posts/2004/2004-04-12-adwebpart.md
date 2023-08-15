@@ -3,7 +3,7 @@ title:  "修改AD登录密码的WebPart"
 date:   2004-04-12 22:42:55 +0800
 ---
 
-我不知道SharePoint是否已经提供了修改密码的功能，自己写了一个WebPart修改Active Directory内的帐号密码。核心代码是：  
+我不知道SharePoint是否已经提供了修改密码的功能，自己写了一个WebPart修改Active Directory内的账号密码。核心代码是：  
 
     string userName = SPControl.GetContextWeb(Context).CurrentUser.LoginName;  
     userName = userName.Remove(0, userName.LastIndexOf('\\') + 1);  

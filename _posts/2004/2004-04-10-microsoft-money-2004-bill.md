@@ -7,7 +7,7 @@ date:   2004-04-10 21:33:49 +0800
 
 “你在跟谁说话？没人看你的文章yeah？”  
 
-咳咳，不管有没有人看，继续。选择Account List，选择一个帐号，你看到的是。。。一片空白，那是你没有输入任何数据，窗体上半部分是交易明细，下半部分是输入筐，输入筐有3个选项卡，对应Cash类型是Spend、Receive、Transfer，Bank类型是Withdrawal、Deposit、Transfer，负债类型是Increase、Decrease、Transfer。真够乱的，其实你只需记住，如果帐户的钱减少了，就添写在第一个tab内，增加了就添写在第二个，如果是帐户之间的金钱来往，就添写在Transfer内（因为你的钱在多个卡内转来转去，总资产不变）。  
+咳咳，不管有没有人看，继续。选择Account List，选择一个账号，你看到的是。。。一片空白，那是你没有输入任何数据，窗体上半部分是交易明细，下半部分是输入筐，输入筐有3个选项卡，对应Cash类型是Spend、Receive、Transfer，Bank类型是Withdrawal、Deposit、Transfer，负债类型是Increase、Decrease、Transfer。真够乱的，其实你只需记住，如果帐户的钱减少了，就添写在第一个tab内，增加了就添写在第二个，如果是帐户之间的金钱来往，就添写在Transfer内（因为你的钱在多个卡内转来转去，总资产不变）。  
 
 举几个录入场景：  
 

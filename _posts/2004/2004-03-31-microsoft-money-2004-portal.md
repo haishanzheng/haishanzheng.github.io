@@ -9,7 +9,7 @@ date:   2004-03-31 17:27:18 +0800
 
 [Microsoft Money 2004 入门 安装篇]({{ site.baseurl }}/2004/03/11/microsoft-money-2004-install.html)
 
-[Microsoft Money 2004 入门 帐号篇]({{ site.baseurl }}/2004/03/31/microsoft-money-2004-account.html)  
+[Microsoft Money 2004 入门 账号篇]({{ site.baseurl }}/2004/03/31/microsoft-money-2004-account.html)  
 
 [Microsoft Money 2004 入门 科目篇]({{ site.baseurl }}/2004/03/31/microsoft-money-2004-category.html)  
 

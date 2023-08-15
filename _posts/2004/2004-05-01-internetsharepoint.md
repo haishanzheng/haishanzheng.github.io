@@ -8,5 +8,5 @@ date:   2004-05-01 21:36:33 +0800
 本单位的Sharepoint网站不打算向外公布:)虽然利用率不是太高，但是办公室要求每个人每天都必须打开Sharepoint，如果每次打开都必须输入用户名和密码，这势必影响大家的积极性。所以我采用了下面的方法：  
 1。提供ChangePassword Webpart，让大家把密码修改得和自己的机器名密码一样。  
 2。把单位网站加入到Intranet列表。在IE里。  
-这样打开IE就直接以登录Windows的帐号登陆Sharepoint，很方便。相关技术，参看How to prevent network login box when log on SPPS intranet http://msd2d.com/Content/Tip_viewitem_03.aspx?section=SharePoint&category=Administration&id=69cf96eb-9043-4a15-bba2-c19b4d0676c1
+这样打开IE就直接以登录Windows的账号登陆Sharepoint，很方便。相关技术，参看How to prevent network login box when log on SPPS intranet http://msd2d.com/Content/Tip_viewitem_03.aspx?section=SharePoint&category=Administration&id=69cf96eb-9043-4a15-bba2-c19b4d0676c1
 

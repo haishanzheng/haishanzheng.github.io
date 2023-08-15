@@ -33,7 +33,7 @@ KDict 字典软件，+ 牛津字典
 PMTxl 记帐软件，最常用  
 ScreenShot 截屏幕软件  
 Skin Change，SkinMgr 给NR70换虚拟手写区和状态栏的工具  
-SplashID 记录帐号信息  
+SplashID 记录账号信息  
 SugarMemo 背单词咳咳  
 TealDoc 另一个电子书工具，可横屏，可反白，用他看完了魔戒、平凡的世界  
 Warfare Palm目前最酷的游戏  

@@ -22,7 +22,7 @@ Categories选择require a category for each transaction。
 
 把一些account加入favorite，然后在UltraMoney端选择只显示fav的account，但是同步选择全部，这样可以节省Palm端的显示资源。  
 
-如果跟一个人经常有货币来往，可以建立一个单独的帐号。其他的未还负债或者应收帐款使用flag标志。  
+如果跟一个人经常有货币来往，可以建立一个单独的账号。其他的未还负债或者应收帐款使用flag标志。  
 
 有空可以做一下Lifetime Planner，lifetime planner相关有一个很好玩的计算你的寿命 http://moneycentral.msn.com/investor/calcs/n_expect/main.asp 功能，这可不是那些无聊的输入生日就可以计算出后半生命运什么di破网站，在这个网站，你必须回答下面类型的Start Here，Family History ，Health ，Lifestyle ，Diet ，Exercise ，Driving一系列问题才可最后得出你的寿命。  
 

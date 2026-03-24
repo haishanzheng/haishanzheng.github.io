@@ -76,27 +76,10 @@ FeedDemon对中文支持没有问题呀？
 
 blog发布工具？我只知道MT可以用Zempt，还有国外很多人用的。。。某个付费软件，忘记名字了，具体可以到cnblog.org上查找。或者我哪天帮你看看呵呵。
 
-*****
-**匿名** 在 *2003-12-06 11:01:22* 说: It is Nik again. I would stick to the blogbus one at least, I think. Here's my rss feed:- http://blogbus.com/blogbus/blog/rdf.php?blogid=4883
-
-By the way, FeedDemon is cool. But it seems not to support Chinese well. And can you please tell me how to add a blog publishing tool to FeedDemon? Cheers.
-
-Regards,
-Nik
 
 *****
 **郑海山** 在 *2003-12-03 11:16:55* 说: haha.好的。决定好了哪个site告诉我，我把Rss feed加入我的FeedDemon。
 
-*****
-**匿名** 在 *2003-12-01 09:59:40* 说: Hello there,
-I am a '万一哪天你输入某个关键字后按手气不错居然误撞入我的主页' guy. Oh well you'll being keeping your words, won't you?
-
-Good to come to your blog site, which is the first blog I've read regarding it as a blog. You are pretty cool, given your blog. I decided I need to go blogging. Thank you for leading me into the field of blog.
-
-Hope we may have more communication in the furture.
-
-p.s. here is my blog site: nixz.blogbus.com and gostandrews.com/blog
-Not decided which one is better yet.
 
 *****
 **郑海山** 在 *2003-05-30 16:17:06* 说: RSS，你可以用php生成，也可以用asp生产。或者用手动生成也行。格式可以看我主页上的 https://dog.xmu.edu.cn 这个。

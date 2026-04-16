@@ -144,7 +144,6 @@ rsync -vzrt --progress --delete /cygdrive/D/Photos/ photo@xxx.xxx.xxx.xxx::photo
 
 *****
 **美文** 在 *2010-09-26 12:58:47* 说: 网站挺不错的，风格很喜欢。能换了链接交个朋友不？
-墨客草屋：http://www.meiwenzhang.com/blog
 
 *****
 **moongirl** 在 *2010-07-24 15:28:32* 说: 现在不便宜哦!不知还要多久,才能大众化!
